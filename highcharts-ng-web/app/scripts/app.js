@@ -1,43 +1,23 @@
-//See: https://github.com/pablojim/highcharts-ng
-var myapp = angular.module('myapp', ["highcharts-ng"]);
+//Setup routing here
+(function() {
+  "use strict";
+  //See: https://github.com/pablojim/highcharts-ng
+  var app = angular.module('highchartsApp', ["ngRoute",  "highcharts-ng"]);
 
-myapp.controller('MainCtrl', function ($scope) {
-    $scope.highchartsNG = {
-        options: {
-            chart: {
-                type: 'pie'
-            },
-            plotOptions: {
-                pie: {
-                    allowPointSelect: true,
-                    cursor: 'pointer',
-                    dataLabels: {
-                        enabled: true,
-                        formatter: function() {
-
-                        return this.key+' : '+Math.round((this.percentage*100)/100,0) + ' %';
-                      },
-                        distance: -40,
-                        color:'white'
-                    },
-                    showInLegend: true
-                }
-            },
-        },
-
-        series: [{
-            type: 'pie',
-            name: 'Test',
-            data: [ ['C++', 150],
-                    ['JavaScript', 95],
-                    ['C#', 80],
-                    ['C', 75],
-                    ['Java', 70]]
-        }],
-        title: {
-            text: 'Pie Charts Example'
-        },
-        loading: false
-    }
-
-});
+  app.config(function($routeProvider){
+    $routeProvider
+      .when("/main",{
+        templateUrl: "views/main.html",
+        controller: "MainController"
+      })
+      .when("/bar",{
+        templateUrl:"views/bar.html",
+        controller: "BarController"
+      })
+      .when("/line",{
+        templateUrl: "views/line.html",
+        controller: "LineController"
+      })
+      .otherwise({redirectTo:"/main"})
+  });
+}());

@@ -15,23 +15,18 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="myapp">
+  <body ng-app="highchartsApp" class="continer-fluid">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="container">
-      <div class="header">
-        <h3 class="text-muted">Highcharts-ng Web Example</h3>
-      </div>
-
-      <div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-chevron-right"></span> from <a href="https://www.github.com/chandravellanki/" target="_blank">R</a></p>
-      </div>
-    </div>
+    <h1 style="text-align:center">HighCharts Angular Examples</h1>
+    <ul class="nav nav-tabs">
+      <li role="presentation"><a href="#/main">Pie</a></li>
+      <li role="presentation"><a href="#/bar">Bar</a></li>
+      <li role="presentation"><a href="#/line">Line</a></li>
+    </ul>
+    <div ng-view></div> <!-- Here the routing engine comes into play -->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -53,7 +48,10 @@
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
+    <!-- <script src="bower_components/angular/angular.js"></script>
+     <script src="bower_components/angular-route/angular-route.js"></script> -->
+    <script data-require="angular.js@~1.3.15" data-semver="1.3.15" src="https://code.angularjs.org/1.3.15/angular.js"></script>
+    <script data-require="angular-route@1.3.15" data-semver="1.3.15" src="https://code.angularjs.org/1.3.15/angular-route.js"></script>
     <script src="bower_components/json3/lib/json3.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/json3/lib/json3.js"></script>
@@ -64,7 +62,9 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/MainController.js"></script>
+        <script src="scripts/controllers/BarController.js"></script>
+        <script src="scripts/controllers/LineController.js"></script>
         <!-- endbuild -->
 </body>
 </html>
