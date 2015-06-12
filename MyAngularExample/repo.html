@@ -1,0 +1,9 @@
+<h1>Contributors for this repo</h1>
+<div>
+  <ul ng-repeat="contributor in contributors">
+    <li><img ng-src="{{contributor.avatar_url}}"/>{{contributor.login}} - {{contributor.contributions}}</li>
+  </ul>
+  {{$scope.contributors}}
+</div>
+
+<a href="#/main">Back to search</a>

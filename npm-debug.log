@@ -1,0 +1,2577 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ionic' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly cache add args [ 'ionic', null ]
+6 verbose cache add spec ionic
+7 silly cache add parsed spec { raw: 'ionic',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'ionic',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed ionic@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'ionic', range: '*', hasData: false }
+12 silly mapToRegistry name ionic
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://registry.npmjs.org/
+15 silly mapToRegistry uri http://registry.npmjs.org/ionic
+16 verbose addNameRange registry:http://registry.npmjs.org/ionic not in flight; fetching
+17 verbose request uri http://registry.npmjs.org/ionic
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 12:50:05 PM
+20 verbose request id 18263118fef99961
+21 verbose etag "DMJUOB0QL2T3IGE8KME5JPC6W"
+22 http request GET http://registry.npmjs.org/ionic
+23 http 304 http://registry.npmjs.org/ionic
+24 silly get cb [ 304,
+24 silly get   { date: 'Thu, 21 May 2015 07:20:05 GMT',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"DMJUOB0QL2T3IGE8KME5JPC6W"',
+24 silly get     'x-served-by': 'cache-sin6921-SIN',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1432192805.200088,VS0,VE214',
+24 silly get     vary: 'Accept',
+24 silly get     age: '0',
+24 silly get     via: '1.1 varnish, 1.1 IN1-WSA-S370.JDA.CORP.LOCAL:80 (Cisco-WSA/8.5.1-021)',
+24 silly get     connection: 'keep-alive' } ]
+25 verbose etag http://registry.npmjs.org/ionic from cache
+26 verbose get saving ionic to C:\Users\j1009063\AppData\Roaming\npm-cache\registry.npmjs.org\ionic\.cache.json
+27 silly addNameRange number 2 { name: 'ionic', range: '*', hasData: true }
+28 silly addNameRange versions [ 'ionic',
+28 silly addNameRange   [ '0.9.6',
+28 silly addNameRange     '0.9.8',
+28 silly addNameRange     '0.9.9',
+28 silly addNameRange     '0.9.10',
+28 silly addNameRange     '0.9.11',
+28 silly addNameRange     '0.9.12',
+28 silly addNameRange     '0.9.13',
+28 silly addNameRange     '0.9.14',
+28 silly addNameRange     '0.9.15',
+28 silly addNameRange     '0.9.16',
+28 silly addNameRange     '1.0.0-beta.1',
+28 silly addNameRange     '1.0.0-beta',
+28 silly addNameRange     '1.0.1-beta',
+28 silly addNameRange     '1.0.3-beta',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7',
+28 silly addNameRange     '1.0.8',
+28 silly addNameRange     '1.0.9',
+28 silly addNameRange     '1.0.10',
+28 silly addNameRange     '1.0.11',
+28 silly addNameRange     '1.0.12',
+28 silly addNameRange     '1.0.13',
+28 silly addNameRange     '1.0.14',
+28 silly addNameRange     '1.0.15',
+28 silly addNameRange     '1.0.16',
+28 silly addNameRange     '1.0.17',
+28 silly addNameRange     '1.1.0-beta1',
+28 silly addNameRange     '1.1.0-beta2',
+28 silly addNameRange     '1.1.0-beta3',
+28 silly addNameRange     '1.1.0-beta4',
+28 silly addNameRange     '1.1.0-beta5',
+28 silly addNameRange     '1.1.0-beta6',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1-beta1',
+28 silly addNameRange     '1.1.1-beta2',
+28 silly addNameRange     '1.1.1-beta3',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.3',
+28 silly addNameRange     '1.1.4',
+28 silly addNameRange     '1.1.5-beta1',
+28 silly addNameRange     '1.1.5-beta2',
+28 silly addNameRange     '1.1.5-beta3',
+28 silly addNameRange     '1.1.5-beta4',
+28 silly addNameRange     '1.1.5-beta5',
+28 silly addNameRange     '1.1.5',
+28 silly addNameRange     '1.1.6',
+28 silly addNameRange     '1.1.7-beta1',
+28 silly addNameRange     '1.1.7',
+28 silly addNameRange     '1.1.8-beta1',
+28 silly addNameRange     '1.1.8-beta2',
+28 silly addNameRange     '1.1.8-beta3',
+28 silly addNameRange     '1.1.8-beta4',
+28 silly addNameRange     '1.1.8-beta5',
+28 silly addNameRange     '1.1.8',
+28 silly addNameRange     '1.1.9-beta1',
+28 silly addNameRange     '1.1.9',
+28 silly addNameRange     '1.1.10',
+28 silly addNameRange     '1.1.11-beta1',
+28 silly addNameRange     '1.1.11-beta2',
+28 silly addNameRange     '1.1.11',
+28 silly addNameRange     '1.1.12-beta1',
+28 silly addNameRange     '1.1.12-beta2',
+28 silly addNameRange     '1.1.12-beta3',
+28 silly addNameRange     '1.1.12',
+28 silly addNameRange     '1.1.13',
+28 silly addNameRange     '1.1.14-beta1',
+28 silly addNameRange     '1.1.14-beta2',
+28 silly addNameRange     '1.1.14-beta3',
+28 silly addNameRange     '1.2.0-beta1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1-beta1',
+28 silly addNameRange     '1.2.1-beta2',
+28 silly addNameRange     '1.2.1-beta3',
+28 silly addNameRange     '1.2.1-beta4',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '1.2.3-beta1',
+28 silly addNameRange     '1.2.3-beta2',
+28 silly addNameRange     '1.2.3-beta3',
+28 silly addNameRange     '1.2.3',
+28 silly addNameRange     '1.2.4-beta1',
+28 silly addNameRange     '1.2.4-beta2',
+28 silly addNameRange     '1.2.4-beta3',
+28 silly addNameRange     '1.2.4',
+28 silly addNameRange     '1.2.5-beta1',
+28 silly addNameRange     '1.2.5-beta2',
+28 silly addNameRange     '1.2.5-beta3',
+28 silly addNameRange     '1.2.5',
+28 silly addNameRange     '1.2.6-beta1',
+28 silly addNameRange     '1.2.6-beta2',
+28 silly addNameRange     '1.2.6-beta3',
+28 silly addNameRange     '1.2.6',
+28 silly addNameRange     '1.2.7',
+28 silly addNameRange     '1.2.8-beta1',
+28 silly addNameRange     '1.2.8-beta2',
+28 silly addNameRange     '1.2.8',
+28 silly addNameRange     '1.2.9',
+28 silly addNameRange     '1.2.10',
+28 silly addNameRange     '1.2.11',
+28 silly addNameRange     '1.2.12',
+28 silly addNameRange     '1.2.13',
+28 silly addNameRange     '1.2.14-beta1',
+28 silly addNameRange     '1.2.14-beta2',
+28 silly addNameRange     '1.2.14-beta3',
+28 silly addNameRange     '1.2.14-beta4',
+28 silly addNameRange     '1.2.14-beta5',
+28 silly addNameRange     '1.2.14-beta6',
+28 silly addNameRange     '1.2.14',
+28 silly addNameRange     '1.3.0-beta1',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.3.4',
+28 silly addNameRange     '1.3.5',
+28 silly addNameRange     '1.3.6',
+28 silly addNameRange     '1.3.7',
+28 silly addNameRange     '1.3.8',
+28 silly addNameRange     '1.3.9',
+28 silly addNameRange     '1.3.10',
+28 silly addNameRange     '1.4.0-alpha.1',
+28 silly addNameRange     '1.3.11',
+28 silly addNameRange     '1.3.1-1.alpha.0',
+28 silly addNameRange     '1.4.0-alpha.2',
+28 silly addNameRange     '1.3.12',
+28 silly addNameRange     '1.3.12-beta.1',
+28 silly addNameRange     '1.3.12-beta.2',
+28 silly addNameRange     '1.3.13-beta.0',
+28 silly addNameRange     '1.3.1-3.beta.1',
+28 silly addNameRange     '1.3.1-3.beta.2',
+28 silly addNameRange     '1.3.13',
+28 silly addNameRange     '1.3.1-3.beta.4',
+28 silly addNameRange     '1.3.14-beta',
+28 silly addNameRange     '1.3.14-beta.1',
+28 silly addNameRange     '1.4.0-alpha.3',
+28 silly addNameRange     '1.3.14',
+28 silly addNameRange     '1.4.0-alpha.4',
+28 silly addNameRange     '1.4.0-alpha.5',
+28 silly addNameRange     '1.3.15-beta.0',
+28 silly addNameRange     '1.3.15-beta.1',
+28 silly addNameRange     '1.3.15-beta.2',
+28 silly addNameRange     '1.3.15-beta.3',
+28 silly addNameRange     '1.3.15-beta.4',
+28 silly addNameRange     '1.3.15',
+28 silly addNameRange     '1.3.16',
+28 silly addNameRange     '1.4.0-alpha.6',
+28 silly addNameRange     '1.3.17-beta.0',
+28 silly addNameRange     '1.3.17-beta.1',
+28 silly addNameRange     '1.3.17-beta.2',
+28 silly addNameRange     '1.3.17-beta.3',
+28 silly addNameRange     '1.3.1-7.beta.4',
+28 silly addNameRange     '1.3.17',
+28 silly addNameRange     '1.3.18-beta.0',
+28 silly addNameRange     '1.3.18-beta.1',
+28 silly addNameRange     '1.3.18-beta.2',
+28 silly addNameRange     '1.3.18-beta.3',
+28 silly addNameRange     '1.3.18',
+28 silly addNameRange     '1.3.19-beta.0',
+28 silly addNameRange     '1.3.19-beta.1',
+28 silly addNameRange     '1.3.19-beta.2',
+28 silly addNameRange     '1.3.19-beta.3',
+28 silly addNameRange     '1.3.19-beta.4',
+28 silly addNameRange     '1.3.19',
+28 silly addNameRange     '1.3.20',
+28 silly addNameRange     '1.4.1-beta.0',
+28 silly addNameRange     '1.4.0-beta.1',
+28 silly addNameRange     '1.4.0-beta.2',
+28 silly addNameRange     '1.4.0-beta.3',
+28 silly addNameRange     '1.4.0-beta.5',
+28 silly addNameRange     '1.4.0-beta.6',
+28 silly addNameRange     '1.4.0-beta.7',
+28 silly addNameRange     '1.3.21-beta.0',
+28 silly addNameRange     '1.3.21-beta.1',
+28 silly addNameRange     '1.3.21',
+28 silly addNameRange     '1.3.22',
+28 silly addNameRange     '1.4.0-beta.8',
+28 silly addNameRange     '1.4.0-beta.9',
+28 silly addNameRange     '1.4.0-beta.10',
+28 silly addNameRange     '1.4.0-beta.11',
+28 silly addNameRange     '1.4.0-beta.12',
+28 silly addNameRange     '1.4.0-beta.13',
+28 silly addNameRange     '1.4.0-beta.14',
+28 silly addNameRange     '1.4.0-beta.15',
+28 silly addNameRange     '1.4.0-beta.16',
+28 silly addNameRange     '1.4.0-beta.17',
+28 silly addNameRange     '1.4.0-beta.18',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.4.3',
+28 silly addNameRange     '1.4.4-beta.0',
+28 silly addNameRange     '1.4.4-beta.2',
+28 silly addNameRange     '1.4.4',
+28 silly addNameRange     '1.4.5-beta.0',
+28 silly addNameRange     '1.4.5-beta.1',
+28 silly addNameRange     '1.4.5-beta.2',
+28 silly addNameRange     '1.4.5-beta.3',
+28 silly addNameRange     '1.4.5',
+28 silly addNameRange     '1.4.6-beta.0' ] ]
+29 verbose addNamed ionic@1.4.5
+30 silly addNamed semver.valid 1.4.5
+31 silly addNamed semver.validRange 1.4.5
+32 silly cache afterAdd ionic@1.4.5
+33 verbose afterAdd C:\Users\j1009063\AppData\Roaming\npm-cache\ionic\1.4.5\package\package.json not in flight; writing
+34 verbose afterAdd C:\Users\j1009063\AppData\Roaming\npm-cache\ionic\1.4.5\package\package.json written
+35 silly install resolved [ { name: 'ionic',
+35 silly install resolved     version: '1.4.5',
+35 silly install resolved     preferGlobal: true,
+35 silly install resolved     description: 'A tool for creating and developing Ionic Framework mobile apps.',
+35 silly install resolved     homepage: 'http://ionicframework.com/',
+35 silly install resolved     bin: { ionic: 'bin/ionic' },
+35 silly install resolved     scripts:
+35 silly install resolved      { bump: 'node lib/tasks/bumpversion',
+35 silly install resolved        'beta-bump': 'node lib/tasks/bumpversion --level pre --identifier beta',
+35 silly install resolved        'publish-release': 'node lib/tasks/bumpversion --npmPublish',
+35 silly install resolved        'publish-tag': 'node lib/tasks/bumpversion --level beta --npmPublishTag',
+35 silly install resolved        'full-release': 'node lib/tasks/bumpversion --npmInstall --git --npmPublish',
+35 silly install resolved        test: 'npm run jasmine',
+35 silly install resolved        e2e: 'jasmine-node --captureExceptions ./e2e',
+35 silly install resolved        jasmine: 'jasmine-node --captureExceptions  ./spec' },
+35 silly install resolved     keywords:
+35 silly install resolved      [ 'ionic',
+35 silly install resolved        'ionic framework',
+35 silly install resolved        'ionicframework',
+35 silly install resolved        'mobile',
+35 silly install resolved        'app',
+35 silly install resolved        'hybrid',
+35 silly install resolved        'cordova',
+35 silly install resolved        'phonegap' ],
+35 silly install resolved     repository:
+35 silly install resolved      { type: 'git',
+35 silly install resolved        url: 'https://github.com/driftyco/ionic-cli.git' },
+35 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     dependencies:
+35 silly install resolved      { archiver: '0.5.1',
+35 silly install resolved        async: '^0.9.0',
+35 silly install resolved        cheerio: '^0.19.0',
+35 silly install resolved        'cli-table': '^0.3.1',
+35 silly install resolved        colors: '0.6.2',
+35 silly install resolved        connect: '3.1.1',
+35 silly install resolved        'connect-livereload': '0.5.2',
+35 silly install resolved        crc: '3.2.1',
+35 silly install resolved        'cross-spawn': '0.2.3',
+35 silly install resolved        'event-stream': '3.0.x',
+35 silly install resolved        finalhandler: '0.2.0',
+35 silly install resolved        'form-data': '0.1.4',
+35 silly install resolved        gulp: '3.8.8',
+35 silly install resolved        'ionic-app-lib': '0.0.22',
+35 silly install resolved        ncp: '0.4.2',
+35 silly install resolved        npm: '2.1.3',
+35 silly install resolved        'opbeat-ionic': '^1.1.3',
+35 silly install resolved        open: '0.0.5',
+35 silly install resolved        optimist: '0.6.0',
+35 silly install resolved        progress: '1.1.7',
+35 silly install resolved        prompt: '0.2.12',
+35 silly install resolved        'proxy-middleware': '^0.7.0',
+35 silly install resolved        q: '1.0.1',
+35 silly install resolved        request: '2.51.0',
+35 silly install resolved        semver: '^4.2.0',
+35 silly install resolved        'serve-static': '1.7.1',
+35 silly install resolved        shelljs: '0.2.6',
+35 silly install resolved        'tiny-lr-fork': '0.0.5',
+35 silly install resolved        underscore: '~1.7.0',
+35 silly install resolved        unzip: '0.1.9',
+35 silly install resolved        'vinyl-fs': '0.3.7',
+35 silly install resolved        xml2js: '0.4.4' },
+35 silly install resolved     devDependencies: { 'jasmine-node': '^1.14.5' },
+35 silly install resolved     gitHead: '4da736396f7c1a23b15716c62839ba5f411b4d8e',
+35 silly install resolved     bugs: { url: 'https://github.com/driftyco/ionic-cli/issues' },
+35 silly install resolved     _id: 'ionic@1.4.5',
+35 silly install resolved     _shasum: 'def0d7eb8b67e1f8e97b8657ce5e2cae4786a6ed',
+35 silly install resolved     _from: 'ionic@*',
+35 silly install resolved     _npmVersion: '2.5.1',
+35 silly install resolved     _nodeVersion: '0.10.33',
+35 silly install resolved     _npmUser: { name: 'jbavari', email: 'jbavari@gmail.com' },
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: 'def0d7eb8b67e1f8e97b8657ce5e2cae4786a6ed',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/ionic/-/ionic-1.4.5.tgz' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'http://registry.npmjs.org/ionic/-/ionic-1.4.5.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install ionic@1.4.5 into C:\Users\j1009063\npm
+37 info installOne ionic@1.4.5
+38 verbose installOne of ionic to C:\Users\j1009063\npm not in flight; installing
+39 verbose lock using C:\Users\j1009063\AppData\Roaming\npm-cache\_locks\ionic-2d54589b03036745.lock for C:\Users\j1009063\npm\node_modules\ionic
+40 silly install write writing ionic 1.4.5 to C:\Users\j1009063\npm\node_modules\ionic
+41 silly cache addNamed cb ionic@1.4.5
+42 verbose unbuild node_modules\ionic
+43 silly gentlyRm C:\Users\j1009063\npm\node_modules\ionic is being purged from base C:\Users\j1009063\npm
+44 verbose gentlyRm don't care about contents; nuking C:\Users\j1009063\npm\node_modules\ionic
+45 verbose tar unpack C:\Users\j1009063\AppData\Roaming\npm-cache\ionic\1.4.5\package.tgz
+46 verbose tar unpacking to C:\Users\j1009063\npm\node_modules\ionic
+47 silly gentlyRm C:\Users\j1009063\npm\node_modules\ionic is being purged
+48 verbose gentlyRm don't care about contents; nuking C:\Users\j1009063\npm\node_modules\ionic
+49 silly gunzTarPerm modes [ '777', '666' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+56 silly gunzTarPerm extractEntry LICENSE
+57 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+58 silly gunzTarPerm extractEntry .jscs.json
+59 silly gunzTarPerm modified mode [ '.jscs.json', 420, 438 ]
+60 silly gunzTarPerm extractEntry CHANGELOG.md
+61 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+62 silly gunzTarPerm extractEntry .gitattributes
+63 silly gunzTarPerm modified mode [ '.gitattributes', 420, 438 ]
+64 silly gunzTarPerm extractEntry bin/ionic
+65 silly gunzTarPerm modified mode [ 'bin/ionic', 493, 511 ]
+66 silly gunzTarPerm extractEntry e2e/e2e.spec.js
+67 silly gunzTarPerm modified mode [ 'e2e/e2e.spec.js', 420, 438 ]
+68 silly gunzTarPerm extractEntry e2e/helpers.js
+69 silly gunzTarPerm modified mode [ 'e2e/helpers.js', 420, 438 ]
+70 silly gunzTarPerm extractEntry e2e/shell.spec.js
+71 silly gunzTarPerm modified mode [ 'e2e/shell.spec.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry lib/cli.js
+73 silly gunzTarPerm modified mode [ 'lib/cli.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry lib/hooks/after_platform_add/010_install_plugins.js
+75 silly gunzTarPerm modified mode [ 'lib/hooks/after_platform_add/010_install_plugins.js',
+75 silly gunzTarPerm   420,
+75 silly gunzTarPerm   438 ]
+76 silly gunzTarPerm extractEntry lib/hooks/after_plugin_add/010_register_plugin.js
+77 silly gunzTarPerm modified mode [ 'lib/hooks/after_plugin_add/010_register_plugin.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry lib/hooks/after_plugin_rm/010_deregister_plugin.js
+79 silly gunzTarPerm modified mode [ 'lib/hooks/after_plugin_rm/010_deregister_plugin.js',
+79 silly gunzTarPerm   420,
+79 silly gunzTarPerm   438 ]
+80 silly gunzTarPerm extractEntry lib/hooks/after_prepare/010_add_platform_class.js
+81 silly gunzTarPerm modified mode [ 'lib/hooks/after_prepare/010_add_platform_class.js', 493, 511 ]
+82 silly gunzTarPerm extractEntry lib/hooks/after_prepare/020_remove_sass_from_platforms.js
+83 silly gunzTarPerm modified mode [ 'lib/hooks/after_prepare/020_remove_sass_from_platforms.js',
+83 silly gunzTarPerm   420,
+83 silly gunzTarPerm   438 ]
+84 silly gunzTarPerm extractEntry lib/hooks/before_platform_add/init_directories.js
+85 silly gunzTarPerm modified mode [ 'lib/hooks/before_platform_add/init_directories.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry lib/ionic/utils.js
+87 silly gunzTarPerm modified mode [ 'lib/ionic/utils.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry lib/ionic/ions.js
+89 silly gunzTarPerm modified mode [ 'lib/ionic/ions.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry lib/ionic/lib.js
+91 silly gunzTarPerm modified mode [ 'lib/ionic/lib.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry lib/ionic/link.js
+93 silly gunzTarPerm modified mode [ 'lib/ionic/link.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry lib/ionic/login.js
+95 silly gunzTarPerm modified mode [ 'lib/ionic/login.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry lib/ionic/ionitron.js
+97 silly gunzTarPerm modified mode [ 'lib/ionic/ionitron.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry lib/ionic/add.js
+99 silly gunzTarPerm modified mode [ 'lib/ionic/add.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry lib/ionic/ports.js
+101 silly gunzTarPerm modified mode [ 'lib/ionic/ports.js', 420, 438 ]
+102 silly gunzTarPerm extractEntry lib/ionic/project.js
+103 silly gunzTarPerm modified mode [ 'lib/ionic/project.js', 420, 438 ]
+104 silly gunzTarPerm extractEntry lib/ionic/prompt.js
+105 silly gunzTarPerm modified mode [ 'lib/ionic/prompt.js', 420, 438 ]
+106 silly gunzTarPerm extractEntry lib/ionic/push.js
+107 silly gunzTarPerm modified mode [ 'lib/ionic/push.js', 420, 438 ]
+108 silly gunzTarPerm extractEntry lib/ionic/info.js
+109 silly gunzTarPerm modified mode [ 'lib/ionic/info.js', 420, 438 ]
+110 silly gunzTarPerm extractEntry lib/ionic/templates.js
+111 silly gunzTarPerm modified mode [ 'lib/ionic/templates.js', 420, 438 ]
+112 silly gunzTarPerm extractEntry lib/ionic/hooks.js
+113 silly gunzTarPerm modified mode [ 'lib/ionic/hooks.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry lib/ionic/serve.js
+115 silly gunzTarPerm modified mode [ 'lib/ionic/serve.js', 420, 438 ]
+116 silly gunzTarPerm extractEntry lib/ionic/help.js
+117 silly gunzTarPerm modified mode [ 'lib/ionic/help.js', 420, 438 ]
+118 silly gunzTarPerm extractEntry lib/ionic/service.js
+119 silly gunzTarPerm modified mode [ 'lib/ionic/service.js', 420, 438 ]
+120 silly gunzTarPerm extractEntry lib/ionic/docs.js
+121 silly gunzTarPerm modified mode [ 'lib/ionic/docs.js', 420, 438 ]
+122 silly gunzTarPerm extractEntry lib/ionic/setup.js
+123 silly gunzTarPerm modified mode [ 'lib/ionic/setup.js', 420, 438 ]
+124 silly gunzTarPerm extractEntry lib/ionic/cordova.js
+125 silly gunzTarPerm modified mode [ 'lib/ionic/cordova.js', 420, 438 ]
+126 silly gunzTarPerm extractEntry lib/ionic/share.js
+127 silly gunzTarPerm modified mode [ 'lib/ionic/share.js', 420, 438 ]
+128 silly gunzTarPerm extractEntry lib/ionic/config.js
+129 silly gunzTarPerm modified mode [ 'lib/ionic/config.js', 420, 438 ]
+130 silly gunzTarPerm extractEntry lib/ionic/start.js
+131 silly gunzTarPerm modified mode [ 'lib/ionic/start.js', 420, 438 ]
+132 silly gunzTarPerm extractEntry lib/ionic/browser.js
+133 silly gunzTarPerm modified mode [ 'lib/ionic/browser.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry lib/ionic/task.js
+135 silly gunzTarPerm modified mode [ 'lib/ionic/task.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry lib/ionic/bower.js
+137 silly gunzTarPerm modified mode [ 'lib/ionic/bower.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry lib/ionic/state.js
+139 silly gunzTarPerm modified mode [ 'lib/ionic/state.js', 420, 438 ]
+140 silly gunzTarPerm extractEntry lib/ionic/upload.js
+141 silly gunzTarPerm modified mode [ 'lib/ionic/upload.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry lib/ionic/stats.js
+143 silly gunzTarPerm modified mode [ 'lib/ionic/stats.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry lib/ionic/app.js
+145 silly gunzTarPerm modified mode [ 'lib/ionic/app.js', 420, 438 ]
+146 silly gunzTarPerm extractEntry lib/ionic/store.js
+147 silly gunzTarPerm modified mode [ 'lib/ionic/store.js', 420, 438 ]
+148 silly gunzTarPerm extractEntry lib/ionic/multibar.js
+149 silly gunzTarPerm modified mode [ 'lib/ionic/multibar.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry lib/ionic/package.js
+151 silly gunzTarPerm modified mode [ 'lib/ionic/package.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry lib/ionic/starter-templates.json
+153 silly gunzTarPerm modified mode [ 'lib/ionic/starter-templates.json', 420, 438 ]
+154 silly gunzTarPerm extractEntry lib/ionic/resources/generate.js
+155 silly gunzTarPerm modified mode [ 'lib/ionic/resources/generate.js', 420, 438 ]
+156 silly gunzTarPerm extractEntry lib/ionic/resources/settings.js
+157 silly gunzTarPerm modified mode [ 'lib/ionic/resources/settings.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry lib/ionic/resources/docs.json
+159 silly gunzTarPerm modified mode [ 'lib/ionic/resources/docs.json', 420, 438 ]
+160 silly gunzTarPerm extractEntry lib/ionic/assets/gradle.properties
+161 silly gunzTarPerm modified mode [ 'lib/ionic/assets/gradle.properties', 420, 438 ]
+162 silly gunzTarPerm extractEntry lib/ionic/assets/ionitron.txt
+163 silly gunzTarPerm modified mode [ 'lib/ionic/assets/ionitron.txt', 420, 438 ]
+164 silly gunzTarPerm extractEntry lib/ionic/assets/preview.html
+165 silly gunzTarPerm modified mode [ 'lib/ionic/assets/preview.html', 420, 438 ]
+166 silly gunzTarPerm extractEntry lib/ionic/CrosswalkNotes.md
+167 silly gunzTarPerm modified mode [ 'lib/ionic/CrosswalkNotes.md', 420, 438 ]
+168 silly gunzTarPerm extractEntry lib/tasks/bumpversion.js
+169 silly gunzTarPerm modified mode [ 'lib/tasks/bumpversion.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry lib/tasks/cliTasks.js
+171 silly gunzTarPerm modified mode [ 'lib/tasks/cliTasks.js', 420, 438 ]
+172 silly gunzTarPerm extractEntry lib/tasks/createDocsJson.js
+173 silly gunzTarPerm modified mode [ 'lib/tasks/createDocsJson.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry npm-shrinkwrap.json
+175 silly gunzTarPerm modified mode [ 'npm-shrinkwrap.json', 420, 438 ]
+176 silly gunzTarPerm extractEntry spec/cli.spec.js
+177 silly gunzTarPerm modified mode [ 'spec/cli.spec.js', 420, 438 ]
+178 info preinstall ionic@1.4.5
+179 verbose readDependencies npm-shrinkwrap.json is overriding dependencies
+180 info shrinkwrap file "C:\\Users\\j1009063\\npm\\node_modules\\ionic\\npm-shrinkwrap.json"
+181 verbose readDependencies returned deps { archiver: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+181 verbose readDependencies returned deps   async: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+181 verbose readDependencies returned deps   cheerio: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+181 verbose readDependencies returned deps   'cli-table': 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+181 verbose readDependencies returned deps   colors: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+181 verbose readDependencies returned deps   connect: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+181 verbose readDependencies returned deps   'connect-livereload': 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+181 verbose readDependencies returned deps   crc: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz',
+181 verbose readDependencies returned deps   'cross-spawn': 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+181 verbose readDependencies returned deps   'event-stream': 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+181 verbose readDependencies returned deps   finalhandler: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+181 verbose readDependencies returned deps   'form-data': 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+181 verbose readDependencies returned deps   gulp: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+181 verbose readDependencies returned deps   'ionic-app-lib': 'https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+181 verbose readDependencies returned deps   ncp: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+181 verbose readDependencies returned deps   npm: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+181 verbose readDependencies returned deps   'opbeat-ionic': 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+181 verbose readDependencies returned deps   open: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+181 verbose readDependencies returned deps   optimist: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+181 verbose readDependencies returned deps   progress: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+181 verbose readDependencies returned deps   prompt: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+181 verbose readDependencies returned deps   'proxy-middleware': 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+181 verbose readDependencies returned deps   q: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+181 verbose readDependencies returned deps   request: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+181 verbose readDependencies returned deps   semver: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+181 verbose readDependencies returned deps   'serve-static': 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+181 verbose readDependencies returned deps   shelljs: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+181 verbose readDependencies returned deps   'tiny-lr-fork': 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+181 verbose readDependencies returned deps   underscore: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+181 verbose readDependencies returned deps   unzip: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+181 verbose readDependencies returned deps   'vinyl-fs': 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+181 verbose readDependencies returned deps   xml2js: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz' }
+182 silly prepareForInstallMany adding archiver@https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz from ionic dependencies
+183 silly prepareForInstallMany adding async@https://registry.npmjs.org/async/-/async-0.9.0.tgz from ionic dependencies
+184 silly prepareForInstallMany adding cheerio@https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz from ionic dependencies
+185 silly prepareForInstallMany adding cli-table@https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz from ionic dependencies
+186 silly prepareForInstallMany adding colors@https://registry.npmjs.org/colors/-/colors-0.6.2.tgz from ionic dependencies
+187 silly prepareForInstallMany adding connect@https://registry.npmjs.org/connect/-/connect-3.1.1.tgz from ionic dependencies
+188 silly prepareForInstallMany adding connect-livereload@https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz from ionic dependencies
+189 silly prepareForInstallMany adding crc@https://registry.npmjs.org/crc/-/crc-3.2.1.tgz from ionic dependencies
+190 silly prepareForInstallMany adding cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz from ionic dependencies
+191 silly prepareForInstallMany adding event-stream@https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz from ionic dependencies
+192 silly prepareForInstallMany adding finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz from ionic dependencies
+193 silly prepareForInstallMany adding form-data@https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz from ionic dependencies
+194 silly prepareForInstallMany adding gulp@https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz from ionic dependencies
+195 silly prepareForInstallMany adding ionic-app-lib@https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz from ionic dependencies
+196 silly prepareForInstallMany adding ncp@https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz from ionic dependencies
+197 silly prepareForInstallMany adding npm@https://registry.npmjs.org/npm/-/npm-2.1.3.tgz from ionic dependencies
+198 silly prepareForInstallMany adding opbeat-ionic@https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz from ionic dependencies
+199 silly prepareForInstallMany adding open@https://registry.npmjs.org/open/-/open-0.0.5.tgz from ionic dependencies
+200 silly prepareForInstallMany adding optimist@https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz from ionic dependencies
+201 silly prepareForInstallMany adding progress@https://registry.npmjs.org/progress/-/progress-1.1.7.tgz from ionic dependencies
+202 silly prepareForInstallMany adding prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz from ionic dependencies
+203 silly prepareForInstallMany adding proxy-middleware@https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz from ionic dependencies
+204 silly prepareForInstallMany adding q@https://registry.npmjs.org/q/-/q-1.0.1.tgz from ionic dependencies
+205 silly prepareForInstallMany adding request@https://registry.npmjs.org/request/-/request-2.51.0.tgz from ionic dependencies
+206 silly prepareForInstallMany adding semver@https://registry.npmjs.org/semver/-/semver-4.3.4.tgz from ionic dependencies
+207 silly prepareForInstallMany adding serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz from ionic dependencies
+208 silly prepareForInstallMany adding shelljs@https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz from ionic dependencies
+209 silly prepareForInstallMany adding tiny-lr-fork@https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz from ionic dependencies
+210 silly prepareForInstallMany adding underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz from ionic dependencies
+211 silly prepareForInstallMany adding unzip@https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz from ionic dependencies
+212 silly prepareForInstallMany adding vinyl-fs@https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz from ionic dependencies
+213 silly prepareForInstallMany adding xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz from ionic dependencies
+214 verbose readDependencies: using existing wrap [ 'C:\\Users\\j1009063\\npm\\node_modules\\ionic',
+214 verbose readDependencies: using existing wrap   { archiver:
+214 verbose readDependencies: using existing wrap      { version: '0.5.1',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     async:
+214 verbose readDependencies: using existing wrap      { version: '0.9.0',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz' },
+214 verbose readDependencies: using existing wrap     cheerio:
+214 verbose readDependencies: using existing wrap      { version: '0.19.0',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'cli-table':
+214 verbose readDependencies: using existing wrap      { version: '0.3.1',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     colors:
+214 verbose readDependencies: using existing wrap      { version: '0.6.2',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz' },
+214 verbose readDependencies: using existing wrap     connect:
+214 verbose readDependencies: using existing wrap      { version: '3.1.1',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'connect-livereload':
+214 verbose readDependencies: using existing wrap      { version: '0.5.2',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz' },
+214 verbose readDependencies: using existing wrap     crc:
+214 verbose readDependencies: using existing wrap      { version: '3.2.1',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz' },
+214 verbose readDependencies: using existing wrap     'cross-spawn':
+214 verbose readDependencies: using existing wrap      { version: '0.2.3',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'event-stream':
+214 verbose readDependencies: using existing wrap      { version: '3.0.20',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     finalhandler:
+214 verbose readDependencies: using existing wrap      { version: '0.2.0',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'form-data':
+214 verbose readDependencies: using existing wrap      { version: '0.1.4',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     gulp:
+214 verbose readDependencies: using existing wrap      { version: '3.8.8',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'ionic-app-lib':
+214 verbose readDependencies: using existing wrap      { version: '0.0.22',
+214 verbose readDependencies: using existing wrap        from: 'ionic-app-lib@0.0.22',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     ncp:
+214 verbose readDependencies: using existing wrap      { version: '0.4.2',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz' },
+214 verbose readDependencies: using existing wrap     npm:
+214 verbose readDependencies: using existing wrap      { version: '2.1.3',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'opbeat-ionic':
+214 verbose readDependencies: using existing wrap      { version: '1.1.3',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     open:
+214 verbose readDependencies: using existing wrap      { version: '0.0.5',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz' },
+214 verbose readDependencies: using existing wrap     optimist:
+214 verbose readDependencies: using existing wrap      { version: '0.6.0',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     progress:
+214 verbose readDependencies: using existing wrap      { version: '1.1.7',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz' },
+214 verbose readDependencies: using existing wrap     prompt:
+214 verbose readDependencies: using existing wrap      { version: '0.2.12',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'proxy-middleware':
+214 verbose readDependencies: using existing wrap      { version: '0.7.0',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz' },
+214 verbose readDependencies: using existing wrap     q:
+214 verbose readDependencies: using existing wrap      { version: '1.0.1',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz' },
+214 verbose readDependencies: using existing wrap     request:
+214 verbose readDependencies: using existing wrap      { version: '2.51.0',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     semver:
+214 verbose readDependencies: using existing wrap      { version: '4.3.4',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz' },
+214 verbose readDependencies: using existing wrap     'serve-static':
+214 verbose readDependencies: using existing wrap      { version: '1.7.1',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     shelljs:
+214 verbose readDependencies: using existing wrap      { version: '0.2.6',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz' },
+214 verbose readDependencies: using existing wrap     'tiny-lr-fork':
+214 verbose readDependencies: using existing wrap      { version: '0.0.5',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     underscore:
+214 verbose readDependencies: using existing wrap      { version: '1.7.0',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz' },
+214 verbose readDependencies: using existing wrap     unzip:
+214 verbose readDependencies: using existing wrap      { version: '0.1.9',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     'vinyl-fs':
+214 verbose readDependencies: using existing wrap      { version: '0.3.7',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] },
+214 verbose readDependencies: using existing wrap     xml2js:
+214 verbose readDependencies: using existing wrap      { version: '0.4.4',
+214 verbose readDependencies: using existing wrap        from: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+214 verbose readDependencies: using existing wrap        resolved: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+214 verbose readDependencies: using existing wrap        dependencies: [Object] } } ]
+215 verbose from wrap [ 'archiver',
+215 verbose from wrap   { version: '0.5.1',
+215 verbose from wrap     from: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+215 verbose from wrap     resolved: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+215 verbose from wrap     dependencies:
+215 verbose from wrap      { 'readable-stream': [Object],
+215 verbose from wrap        'zip-stream': [Object],
+215 verbose from wrap        lazystream: [Object],
+215 verbose from wrap        'file-utils': [Object],
+215 verbose from wrap        lodash: [Object] } } ]
+216 verbose from wrap [ 'async',
+216 verbose from wrap   { version: '0.9.0',
+216 verbose from wrap     from: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+216 verbose from wrap     resolved: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz' } ]
+217 verbose from wrap [ 'cheerio',
+217 verbose from wrap   { version: '0.19.0',
+217 verbose from wrap     from: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+217 verbose from wrap     resolved: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+217 verbose from wrap     dependencies:
+217 verbose from wrap      { 'css-select': [Object],
+217 verbose from wrap        entities: [Object],
+217 verbose from wrap        htmlparser2: [Object],
+217 verbose from wrap        'dom-serializer': [Object],
+217 verbose from wrap        lodash: [Object] } } ]
+218 verbose from wrap [ 'cli-table',
+218 verbose from wrap   { version: '0.3.1',
+218 verbose from wrap     from: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+218 verbose from wrap     resolved: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+218 verbose from wrap     dependencies: { colors: [Object] } } ]
+219 verbose from wrap [ 'colors',
+219 verbose from wrap   { version: '0.6.2',
+219 verbose from wrap     from: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+219 verbose from wrap     resolved: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz' } ]
+220 verbose from wrap [ 'connect',
+220 verbose from wrap   { version: '3.1.1',
+220 verbose from wrap     from: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+220 verbose from wrap     resolved: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+220 verbose from wrap     dependencies:
+220 verbose from wrap      { debug: [Object],
+220 verbose from wrap        finalhandler: [Object],
+220 verbose from wrap        parseurl: [Object],
+220 verbose from wrap        'utils-merge': [Object] } } ]
+221 verbose from wrap [ 'connect-livereload',
+221 verbose from wrap   { version: '0.5.2',
+221 verbose from wrap     from: 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+221 verbose from wrap     resolved: 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz' } ]
+222 verbose from wrap [ 'crc',
+222 verbose from wrap   { version: '3.2.1',
+222 verbose from wrap     from: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz',
+222 verbose from wrap     resolved: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz' } ]
+223 verbose from wrap [ 'cross-spawn',
+223 verbose from wrap   { version: '0.2.3',
+223 verbose from wrap     from: 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+223 verbose from wrap     resolved: 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+223 verbose from wrap     dependencies: { 'lru-cache': [Object] } } ]
+224 verbose from wrap [ 'event-stream',
+224 verbose from wrap   { version: '3.0.20',
+224 verbose from wrap     from: 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+224 verbose from wrap     resolved: 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+224 verbose from wrap     dependencies:
+224 verbose from wrap      { through: [Object],
+224 verbose from wrap        duplexer: [Object],
+224 verbose from wrap        from: [Object],
+224 verbose from wrap        'map-stream': [Object],
+224 verbose from wrap        'pause-stream': [Object],
+224 verbose from wrap        split: [Object],
+224 verbose from wrap        'stream-combiner': [Object] } } ]
+225 verbose from wrap [ 'finalhandler',
+225 verbose from wrap   { version: '0.2.0',
+225 verbose from wrap     from: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+225 verbose from wrap     resolved: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+225 verbose from wrap     dependencies: { debug: [Object], 'escape-html': [Object] } } ]
+226 verbose from wrap [ 'form-data',
+226 verbose from wrap   { version: '0.1.4',
+226 verbose from wrap     from: 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+226 verbose from wrap     resolved: 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+226 verbose from wrap     dependencies: { 'combined-stream': [Object], mime: [Object] } } ]
+227 verbose from wrap [ 'gulp',
+227 verbose from wrap   { version: '3.8.8',
+227 verbose from wrap     from: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+227 verbose from wrap     resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+227 verbose from wrap     dependencies:
+227 verbose from wrap      { archy: [Object],
+227 verbose from wrap        chalk: [Object],
+227 verbose from wrap        deprecated: [Object],
+227 verbose from wrap        'gulp-util': [Object],
+227 verbose from wrap        interpret: [Object],
+227 verbose from wrap        liftoff: [Object],
+227 verbose from wrap        minimist: [Object],
+227 verbose from wrap        orchestrator: [Object],
+227 verbose from wrap        'pretty-hrtime': [Object],
+227 verbose from wrap        semver: [Object],
+227 verbose from wrap        tildify: [Object] } } ]
+228 verbose from wrap [ 'ionic-app-lib',
+228 verbose from wrap   { version: '0.0.22',
+228 verbose from wrap     from: 'ionic-app-lib@0.0.22',
+228 verbose from wrap     resolved: 'https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+228 verbose from wrap     dependencies: { 'cordova-lib': [Object] } } ]
+229 verbose from wrap [ 'ncp',
+229 verbose from wrap   { version: '0.4.2',
+229 verbose from wrap     from: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+229 verbose from wrap     resolved: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz' } ]
+230 verbose from wrap [ 'npm',
+230 verbose from wrap   { version: '2.1.3',
+230 verbose from wrap     from: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+230 verbose from wrap     resolved: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+230 verbose from wrap     dependencies:
+230 verbose from wrap      { abbrev: [Object],
+230 verbose from wrap        ansi: [Object],
+230 verbose from wrap        ansicolors: [Object],
+230 verbose from wrap        ansistyles: [Object],
+230 verbose from wrap        archy: [Object],
+230 verbose from wrap        'async-some': [Object],
+230 verbose from wrap        'block-stream': [Object],
+230 verbose from wrap        'char-spinner': [Object],
+230 verbose from wrap        'child-process-close': [Object],
+230 verbose from wrap        chmodr: [Object],
+230 verbose from wrap        chownr: [Object],
+230 verbose from wrap        'cmd-shim': [Object],
+230 verbose from wrap        columnify: [Object],
+230 verbose from wrap        dezalgo: [Object],
+230 verbose from wrap        editor: [Object],
+230 verbose from wrap        'fs-vacuum': [Object],
+230 verbose from wrap        'fs-write-stream-atomic': [Object],
+230 verbose from wrap        fstream: [Object],
+230 verbose from wrap        'fstream-npm': [Object],
+230 verbose from wrap        'github-url-from-git': [Object],
+230 verbose from wrap        'github-url-from-username-repo': [Object],
+230 verbose from wrap        glob: [Object],
+230 verbose from wrap        'graceful-fs': [Object],
+230 verbose from wrap        inflight: [Object],
+230 verbose from wrap        inherits: [Object],
+230 verbose from wrap        ini: [Object],
+230 verbose from wrap        'init-package-json': [Object],
+230 verbose from wrap        lockfile: [Object],
+230 verbose from wrap        'lru-cache': [Object],
+230 verbose from wrap        minimatch: [Object],
+230 verbose from wrap        mkdirp: [Object],
+230 verbose from wrap        'node-gyp': [Object],
+230 verbose from wrap        nopt: [Object],
+230 verbose from wrap        'normalize-package-data': [Object],
+230 verbose from wrap        'npm-cache-filename': [Object],
+230 verbose from wrap        'npm-install-checks': [Object],
+230 verbose from wrap        'npm-package-arg': [Object],
+230 verbose from wrap        'npm-registry-client': [Object],
+230 verbose from wrap        'npm-user-validate': [Object],
+230 verbose from wrap        npmconf: [Object],
+230 verbose from wrap        npmlog: [Object],
+230 verbose from wrap        once: [Object],
+230 verbose from wrap        opener: [Object],
+230 verbose from wrap        osenv: [Object],
+230 verbose from wrap        'path-is-inside': [Object],
+230 verbose from wrap        read: [Object],
+230 verbose from wrap        'read-installed': [Object],
+230 verbose from wrap        'read-package-json': [Object],
+230 verbose from wrap        'readable-stream': [Object],
+230 verbose from wrap        'realize-package-specifier': [Object],
+230 verbose from wrap        request: [Object],
+230 verbose from wrap        retry: [Object],
+230 verbose from wrap        rimraf: [Object],
+230 verbose from wrap        semver: [Object],
+230 verbose from wrap        sha: [Object],
+230 verbose from wrap        slide: [Object],
+230 verbose from wrap        'sorted-object': [Object],
+230 verbose from wrap        tar: [Object],
+230 verbose from wrap        'text-table': [Object],
+230 verbose from wrap        'uid-number': [Object],
+230 verbose from wrap        which: [Object],
+230 verbose from wrap        wrappy: [Object],
+230 verbose from wrap        'write-file-atomic': [Object] } } ]
+231 verbose from wrap [ 'opbeat-ionic',
+231 verbose from wrap   { version: '1.1.3',
+231 verbose from wrap     from: 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+231 verbose from wrap     resolved: 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+231 verbose from wrap     dependencies:
+231 verbose from wrap      { 'after-all': [Object],
+231 verbose from wrap        'console-log-level': [Object],
+231 verbose from wrap        'json-stringify-safe': [Object],
+231 verbose from wrap        stackman: [Object] } } ]
+232 verbose from wrap [ 'open',
+232 verbose from wrap   { version: '0.0.5',
+232 verbose from wrap     from: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+232 verbose from wrap     resolved: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz' } ]
+233 verbose from wrap [ 'optimist',
+233 verbose from wrap   { version: '0.6.0',
+233 verbose from wrap     from: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+233 verbose from wrap     resolved: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+233 verbose from wrap     dependencies: { wordwrap: [Object], minimist: [Object] } } ]
+234 verbose from wrap [ 'progress',
+234 verbose from wrap   { version: '1.1.7',
+234 verbose from wrap     from: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+234 verbose from wrap     resolved: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz' } ]
+235 verbose from wrap [ 'prompt',
+235 verbose from wrap   { version: '0.2.12',
+235 verbose from wrap     from: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+235 verbose from wrap     resolved: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+235 verbose from wrap     dependencies:
+235 verbose from wrap      { pkginfo: [Object],
+235 verbose from wrap        read: [Object],
+235 verbose from wrap        revalidator: [Object],
+235 verbose from wrap        utile: [Object],
+235 verbose from wrap        winston: [Object] } } ]
+236 verbose from wrap [ 'proxy-middleware',
+236 verbose from wrap   { version: '0.7.0',
+236 verbose from wrap     from: 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+236 verbose from wrap     resolved: 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz' } ]
+237 verbose from wrap [ 'q',
+237 verbose from wrap   { version: '1.0.1',
+237 verbose from wrap     from: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+237 verbose from wrap     resolved: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz' } ]
+238 verbose from wrap [ 'request',
+238 verbose from wrap   { version: '2.51.0',
+238 verbose from wrap     from: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+238 verbose from wrap     resolved: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+238 verbose from wrap     dependencies:
+238 verbose from wrap      { bl: [Object],
+238 verbose from wrap        caseless: [Object],
+238 verbose from wrap        'forever-agent': [Object],
+238 verbose from wrap        'form-data': [Object],
+238 verbose from wrap        'json-stringify-safe': [Object],
+238 verbose from wrap        'mime-types': [Object],
+238 verbose from wrap        'node-uuid': [Object],
+238 verbose from wrap        qs: [Object],
+238 verbose from wrap        'tunnel-agent': [Object],
+238 verbose from wrap        'tough-cookie': [Object],
+238 verbose from wrap        'http-signature': [Object],
+238 verbose from wrap        'oauth-sign': [Object],
+238 verbose from wrap        hawk: [Object],
+238 verbose from wrap        'aws-sign2': [Object],
+238 verbose from wrap        stringstream: [Object],
+238 verbose from wrap        'combined-stream': [Object] } } ]
+239 verbose from wrap [ 'semver',
+239 verbose from wrap   { version: '4.3.4',
+239 verbose from wrap     from: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+239 verbose from wrap     resolved: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz' } ]
+240 verbose from wrap [ 'serve-static',
+240 verbose from wrap   { version: '1.7.1',
+240 verbose from wrap     from: 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+240 verbose from wrap     resolved: 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+240 verbose from wrap     dependencies:
+240 verbose from wrap      { 'escape-html': [Object],
+240 verbose from wrap        parseurl: [Object],
+240 verbose from wrap        send: [Object],
+240 verbose from wrap        'utils-merge': [Object] } } ]
+241 verbose from wrap [ 'shelljs',
+241 verbose from wrap   { version: '0.2.6',
+241 verbose from wrap     from: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+241 verbose from wrap     resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz' } ]
+242 verbose from wrap [ 'tiny-lr-fork',
+242 verbose from wrap   { version: '0.0.5',
+242 verbose from wrap     from: 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+242 verbose from wrap     resolved: 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+242 verbose from wrap     dependencies:
+242 verbose from wrap      { qs: [Object],
+242 verbose from wrap        'faye-websocket': [Object],
+242 verbose from wrap        noptify: [Object],
+242 verbose from wrap        debug: [Object] } } ]
+243 verbose from wrap [ 'underscore',
+243 verbose from wrap   { version: '1.7.0',
+243 verbose from wrap     from: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+243 verbose from wrap     resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz' } ]
+244 verbose from wrap [ 'unzip',
+244 verbose from wrap   { version: '0.1.9',
+244 verbose from wrap     from: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+244 verbose from wrap     resolved: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+244 verbose from wrap     dependencies:
+244 verbose from wrap      { fstream: [Object],
+244 verbose from wrap        pullstream: [Object],
+244 verbose from wrap        binary: [Object],
+244 verbose from wrap        'readable-stream': [Object],
+244 verbose from wrap        setimmediate: [Object],
+244 verbose from wrap        'match-stream': [Object] } } ]
+245 verbose from wrap [ 'vinyl-fs',
+245 verbose from wrap   { version: '0.3.7',
+245 verbose from wrap     from: 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+245 verbose from wrap     resolved: 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+245 verbose from wrap     dependencies:
+245 verbose from wrap      { 'glob-stream': [Object],
+245 verbose from wrap        'glob-watcher': [Object],
+245 verbose from wrap        'graceful-fs': [Object],
+245 verbose from wrap        lodash: [Object],
+245 verbose from wrap        mkdirp: [Object],
+245 verbose from wrap        'strip-bom': [Object],
+245 verbose from wrap        through2: [Object],
+245 verbose from wrap        vinyl: [Object] } } ]
+246 verbose from wrap [ 'xml2js',
+246 verbose from wrap   { version: '0.4.4',
+246 verbose from wrap     from: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+246 verbose from wrap     resolved: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+246 verbose from wrap     dependencies: { sax: [Object], xmlbuilder: [Object] } } ]
+247 verbose readDependencies returned deps { archiver: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+247 verbose readDependencies returned deps   async: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+247 verbose readDependencies returned deps   cheerio: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+247 verbose readDependencies returned deps   'cli-table': 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+247 verbose readDependencies returned deps   colors: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+247 verbose readDependencies returned deps   connect: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+247 verbose readDependencies returned deps   'connect-livereload': 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+247 verbose readDependencies returned deps   crc: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz',
+247 verbose readDependencies returned deps   'cross-spawn': 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+247 verbose readDependencies returned deps   'event-stream': 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+247 verbose readDependencies returned deps   finalhandler: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+247 verbose readDependencies returned deps   'form-data': 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+247 verbose readDependencies returned deps   gulp: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+247 verbose readDependencies returned deps   'ionic-app-lib': 'https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+247 verbose readDependencies returned deps   ncp: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+247 verbose readDependencies returned deps   npm: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+247 verbose readDependencies returned deps   'opbeat-ionic': 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+247 verbose readDependencies returned deps   open: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+247 verbose readDependencies returned deps   optimist: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+247 verbose readDependencies returned deps   progress: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+247 verbose readDependencies returned deps   prompt: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+247 verbose readDependencies returned deps   'proxy-middleware': 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+247 verbose readDependencies returned deps   q: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+247 verbose readDependencies returned deps   request: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+247 verbose readDependencies returned deps   semver: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+247 verbose readDependencies returned deps   'serve-static': 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+247 verbose readDependencies returned deps   shelljs: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+247 verbose readDependencies returned deps   'tiny-lr-fork': 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+247 verbose readDependencies returned deps   underscore: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+247 verbose readDependencies returned deps   unzip: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+247 verbose readDependencies returned deps   'vinyl-fs': 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+247 verbose readDependencies returned deps   xml2js: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz' }
+248 silly cache add args [ 'cheerio@https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+248 silly cache add   null ]
+249 verbose cache add spec cheerio@https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+250 silly cache add args [ 'cli-table@https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+250 silly cache add   null ]
+251 verbose cache add spec cli-table@https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+252 silly cache add args [ 'colors@https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+252 silly cache add   null ]
+253 verbose cache add spec colors@https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+254 silly cache add args [ 'connect@https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+254 silly cache add   null ]
+255 verbose cache add spec connect@https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+256 silly cache add args [ 'connect-livereload@https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+256 silly cache add   null ]
+257 verbose cache add spec connect-livereload@https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+258 silly cache add args [ 'crc@https://registry.npmjs.org/crc/-/crc-3.2.1.tgz', null ]
+259 verbose cache add spec crc@https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+260 silly cache add parsed spec { raw: 'cheerio@https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+260 silly cache add   scope: null,
+260 silly cache add   name: 'cheerio',
+260 silly cache add   rawSpec: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+260 silly cache add   spec: 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+260 silly cache add   type: 'remote' }
+261 silly mapToRegistry name cheerio@https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry http://registry.npmjs.org/
+264 silly mapToRegistry uri http://registry.npmjs.org/cheerio@https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+265 verbose addRemoteTarball https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz not in flight; adding
+266 verbose addRemoteTarball [ 'https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz',
+266 verbose addRemoteTarball   null ]
+267 silly cache add parsed spec { raw: 'cli-table@https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+267 silly cache add   scope: null,
+267 silly cache add   name: 'cli-table',
+267 silly cache add   rawSpec: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+267 silly cache add   spec: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+267 silly cache add   type: 'remote' }
+268 silly mapToRegistry name cli-table@https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry http://registry.npmjs.org/
+271 silly mapToRegistry uri http://registry.npmjs.org/cli-table@https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+272 verbose addRemoteTarball https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz not in flight; adding
+273 verbose addRemoteTarball [ 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+273 verbose addRemoteTarball   null ]
+274 silly cache add parsed spec { raw: 'colors@https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+274 silly cache add   scope: null,
+274 silly cache add   name: 'colors',
+274 silly cache add   rawSpec: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+274 silly cache add   spec: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+274 silly cache add   type: 'remote' }
+275 silly mapToRegistry name colors@https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+276 silly mapToRegistry using default registry
+277 silly mapToRegistry registry http://registry.npmjs.org/
+278 silly mapToRegistry uri http://registry.npmjs.org/colors@https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+279 verbose addRemoteTarball https://registry.npmjs.org/colors/-/colors-0.6.2.tgz not in flight; adding
+280 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz', null ]
+281 silly cache add parsed spec { raw: 'connect@https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+281 silly cache add   scope: null,
+281 silly cache add   name: 'connect',
+281 silly cache add   rawSpec: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+281 silly cache add   spec: 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+281 silly cache add   type: 'remote' }
+282 silly mapToRegistry name connect@https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry http://registry.npmjs.org/
+285 silly mapToRegistry uri http://registry.npmjs.org/connect@https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+286 verbose addRemoteTarball https://registry.npmjs.org/connect/-/connect-3.1.1.tgz not in flight; adding
+287 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-3.1.1.tgz',
+287 verbose addRemoteTarball   null ]
+288 silly cache add parsed spec { raw: 'connect-livereload@https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+288 silly cache add   scope: null,
+288 silly cache add   name: 'connect-livereload',
+288 silly cache add   rawSpec: 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+288 silly cache add   spec: 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+288 silly cache add   type: 'remote' }
+289 silly mapToRegistry name connect-livereload@https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry http://registry.npmjs.org/
+292 silly mapToRegistry uri http://registry.npmjs.org/connect-livereload@https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+293 verbose addRemoteTarball https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz not in flight; adding
+294 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz',
+294 verbose addRemoteTarball   null ]
+295 silly cache add args [ 'cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+295 silly cache add   null ]
+296 verbose cache add spec cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+297 silly cache add args [ 'event-stream@https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+297 silly cache add   null ]
+298 verbose cache add spec event-stream@https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+299 silly cache add args [ 'finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+299 silly cache add   null ]
+300 verbose cache add spec finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+301 silly cache add args [ 'form-data@https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+301 silly cache add   null ]
+302 verbose cache add spec form-data@https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+303 silly cache add args [ 'gulp@https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+303 silly cache add   null ]
+304 verbose cache add spec gulp@https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+305 silly cache add args [ 'ionic-app-lib@https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+305 silly cache add   null ]
+306 verbose cache add spec ionic-app-lib@https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+307 silly cache add args [ 'ncp@https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz', null ]
+308 verbose cache add spec ncp@https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+309 silly cache add args [ 'npm@https://registry.npmjs.org/npm/-/npm-2.1.3.tgz', null ]
+310 verbose cache add spec npm@https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+311 silly cache add args [ 'opbeat-ionic@https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+311 silly cache add   null ]
+312 verbose cache add spec opbeat-ionic@https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+313 silly cache add args [ 'open@https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+313 silly cache add   null ]
+314 verbose cache add spec open@https://registry.npmjs.org/open/-/open-0.0.5.tgz
+315 silly cache add args [ 'optimist@https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+315 silly cache add   null ]
+316 verbose cache add spec optimist@https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+317 silly cache add args [ 'progress@https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+317 silly cache add   null ]
+318 verbose cache add spec progress@https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+319 silly cache add args [ 'prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+319 silly cache add   null ]
+320 verbose cache add spec prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+321 silly cache add args [ 'proxy-middleware@https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+321 silly cache add   null ]
+322 verbose cache add spec proxy-middleware@https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+323 silly cache add args [ 'q@https://registry.npmjs.org/q/-/q-1.0.1.tgz', null ]
+324 verbose cache add spec q@https://registry.npmjs.org/q/-/q-1.0.1.tgz
+325 silly cache add args [ 'request@https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+325 silly cache add   null ]
+326 verbose cache add spec request@https://registry.npmjs.org/request/-/request-2.51.0.tgz
+327 silly cache add args [ 'semver@https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+327 silly cache add   null ]
+328 verbose cache add spec semver@https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+329 silly cache add parsed spec { raw: 'crc@https://registry.npmjs.org/crc/-/crc-3.2.1.tgz',
+329 silly cache add   scope: null,
+329 silly cache add   name: 'crc',
+329 silly cache add   rawSpec: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz',
+329 silly cache add   spec: 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz',
+329 silly cache add   type: 'remote' }
+330 silly mapToRegistry name crc@https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+331 silly mapToRegistry using default registry
+332 silly mapToRegistry registry http://registry.npmjs.org/
+333 silly mapToRegistry uri http://registry.npmjs.org/crc@https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+334 verbose addRemoteTarball https://registry.npmjs.org/crc/-/crc-3.2.1.tgz not in flight; adding
+335 verbose addRemoteTarball [ 'https://registry.npmjs.org/crc/-/crc-3.2.1.tgz', null ]
+336 silly cache add parsed spec { raw: 'cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+336 silly cache add   scope: null,
+336 silly cache add   name: 'cross-spawn',
+336 silly cache add   rawSpec: 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+336 silly cache add   spec: 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+336 silly cache add   type: 'remote' }
+337 silly mapToRegistry name cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry http://registry.npmjs.org/
+340 silly mapToRegistry uri http://registry.npmjs.org/cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+341 verbose addRemoteTarball https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz not in flight; adding
+342 verbose addRemoteTarball [ 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz',
+342 verbose addRemoteTarball   null ]
+343 silly cache add parsed spec { raw: 'event-stream@https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+343 silly cache add   scope: null,
+343 silly cache add   name: 'event-stream',
+343 silly cache add   rawSpec: 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+343 silly cache add   spec: 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+343 silly cache add   type: 'remote' }
+344 silly mapToRegistry name event-stream@https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+345 silly mapToRegistry using default registry
+346 silly mapToRegistry registry http://registry.npmjs.org/
+347 silly mapToRegistry uri http://registry.npmjs.org/event-stream@https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+348 verbose addRemoteTarball https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz not in flight; adding
+349 verbose addRemoteTarball [ 'https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz',
+349 verbose addRemoteTarball   null ]
+350 silly cache add parsed spec { raw: 'finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+350 silly cache add   scope: null,
+350 silly cache add   name: 'finalhandler',
+350 silly cache add   rawSpec: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+350 silly cache add   spec: 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+350 silly cache add   type: 'remote' }
+351 silly mapToRegistry name finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+352 silly mapToRegistry using default registry
+353 silly mapToRegistry registry http://registry.npmjs.org/
+354 silly mapToRegistry uri http://registry.npmjs.org/finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+355 verbose addRemoteTarball https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz not in flight; adding
+356 verbose addRemoteTarball [ 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz',
+356 verbose addRemoteTarball   null ]
+357 silly cache add parsed spec { raw: 'form-data@https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+357 silly cache add   scope: null,
+357 silly cache add   name: 'form-data',
+357 silly cache add   rawSpec: 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+357 silly cache add   spec: 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+357 silly cache add   type: 'remote' }
+358 silly mapToRegistry name form-data@https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry http://registry.npmjs.org/
+361 silly mapToRegistry uri http://registry.npmjs.org/form-data@https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+362 verbose addRemoteTarball https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz not in flight; adding
+363 verbose addRemoteTarball [ 'https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz',
+363 verbose addRemoteTarball   null ]
+364 silly cache add parsed spec { raw: 'gulp@https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+364 silly cache add   scope: null,
+364 silly cache add   name: 'gulp',
+364 silly cache add   rawSpec: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+364 silly cache add   spec: 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz',
+364 silly cache add   type: 'remote' }
+365 silly mapToRegistry name gulp@https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+366 silly mapToRegistry using default registry
+367 silly mapToRegistry registry http://registry.npmjs.org/
+368 silly mapToRegistry uri http://registry.npmjs.org/gulp@https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+369 verbose addRemoteTarball https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz not in flight; adding
+370 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz', null ]
+371 silly cache add parsed spec { raw: 'ionic-app-lib@https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+371 silly cache add   scope: null,
+371 silly cache add   name: 'ionic-app-lib',
+371 silly cache add   rawSpec: 'https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+371 silly cache add   spec: 'https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+371 silly cache add   type: 'remote' }
+372 silly mapToRegistry name ionic-app-lib@https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry http://registry.npmjs.org/
+375 silly mapToRegistry uri http://registry.npmjs.org/ionic-app-lib@https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+376 verbose addRemoteTarball https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz not in flight; adding
+377 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz',
+377 verbose addRemoteTarball   null ]
+378 silly cache add parsed spec { raw: 'ncp@https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+378 silly cache add   scope: null,
+378 silly cache add   name: 'ncp',
+378 silly cache add   rawSpec: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+378 silly cache add   spec: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+378 silly cache add   type: 'remote' }
+379 silly mapToRegistry name ncp@https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+380 silly mapToRegistry using default registry
+381 silly mapToRegistry registry http://registry.npmjs.org/
+382 silly mapToRegistry uri http://registry.npmjs.org/ncp@https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+383 verbose addRemoteTarball https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz not in flight; adding
+384 verbose addRemoteTarball [ 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz', null ]
+385 silly cache add parsed spec { raw: 'npm@https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+385 silly cache add   scope: null,
+385 silly cache add   name: 'npm',
+385 silly cache add   rawSpec: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+385 silly cache add   spec: 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz',
+385 silly cache add   type: 'remote' }
+386 silly mapToRegistry name npm@https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+387 silly mapToRegistry using default registry
+388 silly mapToRegistry registry http://registry.npmjs.org/
+389 silly mapToRegistry uri http://registry.npmjs.org/npm@https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+390 verbose addRemoteTarball https://registry.npmjs.org/npm/-/npm-2.1.3.tgz not in flight; adding
+391 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-2.1.3.tgz', null ]
+392 silly cache add parsed spec { raw: 'opbeat-ionic@https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+392 silly cache add   scope: null,
+392 silly cache add   name: 'opbeat-ionic',
+392 silly cache add   rawSpec: 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+392 silly cache add   spec: 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+392 silly cache add   type: 'remote' }
+393 silly mapToRegistry name opbeat-ionic@https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry http://registry.npmjs.org/
+396 silly mapToRegistry uri http://registry.npmjs.org/opbeat-ionic@https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+397 verbose addRemoteTarball https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz not in flight; adding
+398 verbose addRemoteTarball [ 'https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz',
+398 verbose addRemoteTarball   null ]
+399 silly cache add parsed spec { raw: 'open@https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+399 silly cache add   scope: null,
+399 silly cache add   name: 'open',
+399 silly cache add   rawSpec: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+399 silly cache add   spec: 'https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+399 silly cache add   type: 'remote' }
+400 silly mapToRegistry name open@https://registry.npmjs.org/open/-/open-0.0.5.tgz
+401 silly mapToRegistry using default registry
+402 silly mapToRegistry registry http://registry.npmjs.org/
+403 silly mapToRegistry uri http://registry.npmjs.org/open@https://registry.npmjs.org/open/-/open-0.0.5.tgz
+404 verbose addRemoteTarball https://registry.npmjs.org/open/-/open-0.0.5.tgz not in flight; adding
+405 verbose addRemoteTarball [ 'https://registry.npmjs.org/open/-/open-0.0.5.tgz', null ]
+406 silly cache add parsed spec { raw: 'optimist@https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+406 silly cache add   scope: null,
+406 silly cache add   name: 'optimist',
+406 silly cache add   rawSpec: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+406 silly cache add   spec: 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+406 silly cache add   type: 'remote' }
+407 silly mapToRegistry name optimist@https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+408 silly mapToRegistry using default registry
+409 silly mapToRegistry registry http://registry.npmjs.org/
+410 silly mapToRegistry uri http://registry.npmjs.org/optimist@https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+411 verbose addRemoteTarball https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz not in flight; adding
+412 verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+412 verbose addRemoteTarball   null ]
+413 silly cache add parsed spec { raw: 'progress@https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+413 silly cache add   scope: null,
+413 silly cache add   name: 'progress',
+413 silly cache add   rawSpec: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+413 silly cache add   spec: 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+413 silly cache add   type: 'remote' }
+414 silly mapToRegistry name progress@https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+415 silly mapToRegistry using default registry
+416 silly mapToRegistry registry http://registry.npmjs.org/
+417 silly mapToRegistry uri http://registry.npmjs.org/progress@https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+418 verbose addRemoteTarball https://registry.npmjs.org/progress/-/progress-1.1.7.tgz not in flight; adding
+419 verbose addRemoteTarball [ 'https://registry.npmjs.org/progress/-/progress-1.1.7.tgz',
+419 verbose addRemoteTarball   null ]
+420 silly cache add parsed spec { raw: 'prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+420 silly cache add   scope: null,
+420 silly cache add   name: 'prompt',
+420 silly cache add   rawSpec: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+420 silly cache add   spec: 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+420 silly cache add   type: 'remote' }
+421 silly mapToRegistry name prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+422 silly mapToRegistry using default registry
+423 silly mapToRegistry registry http://registry.npmjs.org/
+424 silly mapToRegistry uri http://registry.npmjs.org/prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+425 verbose addRemoteTarball https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz not in flight; adding
+426 verbose addRemoteTarball [ 'https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz',
+426 verbose addRemoteTarball   null ]
+427 silly cache add parsed spec { raw: 'proxy-middleware@https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+427 silly cache add   scope: null,
+427 silly cache add   name: 'proxy-middleware',
+427 silly cache add   rawSpec: 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+427 silly cache add   spec: 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+427 silly cache add   type: 'remote' }
+428 silly mapToRegistry name proxy-middleware@https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+429 silly mapToRegistry using default registry
+430 silly mapToRegistry registry http://registry.npmjs.org/
+431 silly mapToRegistry uri http://registry.npmjs.org/proxy-middleware@https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+432 verbose addRemoteTarball https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz not in flight; adding
+433 verbose addRemoteTarball [ 'https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz',
+433 verbose addRemoteTarball   null ]
+434 silly cache add parsed spec { raw: 'q@https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+434 silly cache add   scope: null,
+434 silly cache add   name: 'q',
+434 silly cache add   rawSpec: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+434 silly cache add   spec: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+434 silly cache add   type: 'remote' }
+435 silly mapToRegistry name q@https://registry.npmjs.org/q/-/q-1.0.1.tgz
+436 silly mapToRegistry using default registry
+437 silly mapToRegistry registry http://registry.npmjs.org/
+438 silly mapToRegistry uri http://registry.npmjs.org/q@https://registry.npmjs.org/q/-/q-1.0.1.tgz
+439 verbose addRemoteTarball https://registry.npmjs.org/q/-/q-1.0.1.tgz not in flight; adding
+440 verbose addRemoteTarball [ 'https://registry.npmjs.org/q/-/q-1.0.1.tgz', null ]
+441 silly cache add parsed spec { raw: 'request@https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+441 silly cache add   scope: null,
+441 silly cache add   name: 'request',
+441 silly cache add   rawSpec: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+441 silly cache add   spec: 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+441 silly cache add   type: 'remote' }
+442 silly mapToRegistry name request@https://registry.npmjs.org/request/-/request-2.51.0.tgz
+443 silly mapToRegistry using default registry
+444 silly mapToRegistry registry http://registry.npmjs.org/
+445 silly mapToRegistry uri http://registry.npmjs.org/request@https://registry.npmjs.org/request/-/request-2.51.0.tgz
+446 verbose addRemoteTarball https://registry.npmjs.org/request/-/request-2.51.0.tgz not in flight; adding
+447 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+447 verbose addRemoteTarball   null ]
+448 silly cache add args [ 'serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+448 silly cache add   null ]
+449 verbose cache add spec serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+450 silly cache add args [ 'shelljs@https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+450 silly cache add   null ]
+451 verbose cache add spec shelljs@https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+452 silly cache add args [ 'tiny-lr-fork@https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+452 silly cache add   null ]
+453 verbose cache add spec tiny-lr-fork@https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+454 silly cache add args [ 'underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+454 silly cache add   null ]
+455 verbose cache add spec underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+456 silly cache add args [ 'unzip@https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+456 silly cache add   null ]
+457 verbose cache add spec unzip@https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+458 silly cache add args [ 'vinyl-fs@https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+458 silly cache add   null ]
+459 verbose cache add spec vinyl-fs@https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+460 silly cache add args [ 'xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+460 silly cache add   null ]
+461 verbose cache add spec xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+462 silly cache add args [ 'archiver@https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+462 silly cache add   null ]
+463 verbose cache add spec archiver@https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+464 silly cache add args [ 'async@https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+464 silly cache add   null ]
+465 verbose cache add spec async@https://registry.npmjs.org/async/-/async-0.9.0.tgz
+466 silly cache add parsed spec { raw: 'semver@https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+466 silly cache add   scope: null,
+466 silly cache add   name: 'semver',
+466 silly cache add   rawSpec: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+466 silly cache add   spec: 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz',
+466 silly cache add   type: 'remote' }
+467 silly mapToRegistry name semver@https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+468 silly mapToRegistry using default registry
+469 silly mapToRegistry registry http://registry.npmjs.org/
+470 silly mapToRegistry uri http://registry.npmjs.org/semver@https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+471 verbose addRemoteTarball https://registry.npmjs.org/semver/-/semver-4.3.4.tgz not in flight; adding
+472 verbose addRemoteTarball [ 'https://registry.npmjs.org/semver/-/semver-4.3.4.tgz', null ]
+473 silly cache add parsed spec { raw: 'serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+473 silly cache add   scope: null,
+473 silly cache add   name: 'serve-static',
+473 silly cache add   rawSpec: 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+473 silly cache add   spec: 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+473 silly cache add   type: 'remote' }
+474 silly mapToRegistry name serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+475 silly mapToRegistry using default registry
+476 silly mapToRegistry registry http://registry.npmjs.org/
+477 silly mapToRegistry uri http://registry.npmjs.org/serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+478 verbose addRemoteTarball https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz not in flight; adding
+479 verbose addRemoteTarball [ 'https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz',
+479 verbose addRemoteTarball   null ]
+480 silly cache add parsed spec { raw: 'shelljs@https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+480 silly cache add   scope: null,
+480 silly cache add   name: 'shelljs',
+480 silly cache add   rawSpec: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+480 silly cache add   spec: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+480 silly cache add   type: 'remote' }
+481 silly mapToRegistry name shelljs@https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+482 silly mapToRegistry using default registry
+483 silly mapToRegistry registry http://registry.npmjs.org/
+484 silly mapToRegistry uri http://registry.npmjs.org/shelljs@https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+485 verbose addRemoteTarball https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz not in flight; adding
+486 verbose addRemoteTarball [ 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+486 verbose addRemoteTarball   null ]
+487 silly cache add parsed spec { raw: 'tiny-lr-fork@https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+487 silly cache add   scope: null,
+487 silly cache add   name: 'tiny-lr-fork',
+487 silly cache add   rawSpec: 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+487 silly cache add   spec: 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+487 silly cache add   type: 'remote' }
+488 silly mapToRegistry name tiny-lr-fork@https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry http://registry.npmjs.org/
+491 silly mapToRegistry uri http://registry.npmjs.org/tiny-lr-fork@https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+492 verbose addRemoteTarball https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz not in flight; adding
+493 verbose addRemoteTarball [ 'https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz',
+493 verbose addRemoteTarball   null ]
+494 silly cache add parsed spec { raw: 'underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+494 silly cache add   scope: null,
+494 silly cache add   name: 'underscore',
+494 silly cache add   rawSpec: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+494 silly cache add   spec: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+494 silly cache add   type: 'remote' }
+495 silly mapToRegistry name underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+496 silly mapToRegistry using default registry
+497 silly mapToRegistry registry http://registry.npmjs.org/
+498 silly mapToRegistry uri http://registry.npmjs.org/underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+499 verbose addRemoteTarball https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz not in flight; adding
+500 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+500 verbose addRemoteTarball   null ]
+501 silly cache add parsed spec { raw: 'unzip@https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+501 silly cache add   scope: null,
+501 silly cache add   name: 'unzip',
+501 silly cache add   rawSpec: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+501 silly cache add   spec: 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+501 silly cache add   type: 'remote' }
+502 silly mapToRegistry name unzip@https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+503 silly mapToRegistry using default registry
+504 silly mapToRegistry registry http://registry.npmjs.org/
+505 silly mapToRegistry uri http://registry.npmjs.org/unzip@https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+506 verbose addRemoteTarball https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz not in flight; adding
+507 verbose addRemoteTarball [ 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz', null ]
+508 silly cache add parsed spec { raw: 'vinyl-fs@https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+508 silly cache add   scope: null,
+508 silly cache add   name: 'vinyl-fs',
+508 silly cache add   rawSpec: 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+508 silly cache add   spec: 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+508 silly cache add   type: 'remote' }
+509 silly mapToRegistry name vinyl-fs@https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+510 silly mapToRegistry using default registry
+511 silly mapToRegistry registry http://registry.npmjs.org/
+512 silly mapToRegistry uri http://registry.npmjs.org/vinyl-fs@https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+513 verbose addRemoteTarball https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz not in flight; adding
+514 verbose addRemoteTarball [ 'https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz',
+514 verbose addRemoteTarball   null ]
+515 silly cache add parsed spec { raw: 'xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+515 silly cache add   scope: null,
+515 silly cache add   name: 'xml2js',
+515 silly cache add   rawSpec: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+515 silly cache add   spec: 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz',
+515 silly cache add   type: 'remote' }
+516 silly mapToRegistry name xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+517 silly mapToRegistry using default registry
+518 silly mapToRegistry registry http://registry.npmjs.org/
+519 silly mapToRegistry uri http://registry.npmjs.org/xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+520 verbose addRemoteTarball https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz not in flight; adding
+521 verbose addRemoteTarball [ 'https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz', null ]
+522 silly cache add parsed spec { raw: 'archiver@https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+522 silly cache add   scope: null,
+522 silly cache add   name: 'archiver',
+522 silly cache add   rawSpec: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+522 silly cache add   spec: 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+522 silly cache add   type: 'remote' }
+523 silly mapToRegistry name archiver@https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+524 silly mapToRegistry using default registry
+525 silly mapToRegistry registry http://registry.npmjs.org/
+526 silly mapToRegistry uri http://registry.npmjs.org/archiver@https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+527 verbose addRemoteTarball https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz not in flight; adding
+528 verbose addRemoteTarball [ 'https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz',
+528 verbose addRemoteTarball   null ]
+529 silly cache add parsed spec { raw: 'async@https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+529 silly cache add   scope: null,
+529 silly cache add   name: 'async',
+529 silly cache add   rawSpec: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+529 silly cache add   spec: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+529 silly cache add   type: 'remote' }
+530 silly mapToRegistry name async@https://registry.npmjs.org/async/-/async-0.9.0.tgz
+531 silly mapToRegistry using default registry
+532 silly mapToRegistry registry http://registry.npmjs.org/
+533 silly mapToRegistry uri http://registry.npmjs.org/async@https://registry.npmjs.org/async/-/async-0.9.0.tgz
+534 verbose addRemoteTarball https://registry.npmjs.org/async/-/async-0.9.0.tgz not in flight; adding
+535 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.9.0.tgz', null ]
+536 info retry fetch attempt 1 at 12:50:06 PM
+537 info attempt registry request try #1 at 12:50:06 PM
+538 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+539 info retry fetch attempt 1 at 12:50:06 PM
+540 info attempt registry request try #1 at 12:50:06 PM
+541 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+542 info retry fetch attempt 1 at 12:50:06 PM
+543 info attempt registry request try #1 at 12:50:06 PM
+544 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+545 info retry fetch attempt 1 at 12:50:06 PM
+546 info attempt registry request try #1 at 12:50:06 PM
+547 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+548 info retry fetch attempt 1 at 12:50:06 PM
+549 info attempt registry request try #1 at 12:50:06 PM
+550 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+551 info retry fetch attempt 1 at 12:50:06 PM
+552 info attempt registry request try #1 at 12:50:06 PM
+553 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+554 info retry fetch attempt 1 at 12:50:06 PM
+555 info attempt registry request try #1 at 12:50:06 PM
+556 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+557 info retry fetch attempt 1 at 12:50:06 PM
+558 info attempt registry request try #1 at 12:50:06 PM
+559 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+560 info retry fetch attempt 1 at 12:50:06 PM
+561 info attempt registry request try #1 at 12:50:06 PM
+562 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+563 info retry fetch attempt 1 at 12:50:06 PM
+564 info attempt registry request try #1 at 12:50:06 PM
+565 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+566 info retry fetch attempt 1 at 12:50:06 PM
+567 info attempt registry request try #1 at 12:50:06 PM
+568 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+569 info retry fetch attempt 1 at 12:50:06 PM
+570 info attempt registry request try #1 at 12:50:06 PM
+571 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+572 info retry fetch attempt 1 at 12:50:06 PM
+573 info attempt registry request try #1 at 12:50:06 PM
+574 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+575 info retry fetch attempt 1 at 12:50:06 PM
+576 info attempt registry request try #1 at 12:50:06 PM
+577 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+578 info retry fetch attempt 1 at 12:50:06 PM
+579 info attempt registry request try #1 at 12:50:06 PM
+580 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+581 info retry fetch attempt 1 at 12:50:06 PM
+582 info attempt registry request try #1 at 12:50:06 PM
+583 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+584 info retry fetch attempt 1 at 12:50:06 PM
+585 info attempt registry request try #1 at 12:50:06 PM
+586 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+587 info retry fetch attempt 1 at 12:50:06 PM
+588 info attempt registry request try #1 at 12:50:06 PM
+589 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+590 info retry fetch attempt 1 at 12:50:06 PM
+591 info attempt registry request try #1 at 12:50:06 PM
+592 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+593 info retry fetch attempt 1 at 12:50:06 PM
+594 info attempt registry request try #1 at 12:50:06 PM
+595 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+596 info retry fetch attempt 1 at 12:50:06 PM
+597 info attempt registry request try #1 at 12:50:06 PM
+598 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+599 info retry fetch attempt 1 at 12:50:06 PM
+600 info attempt registry request try #1 at 12:50:06 PM
+601 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+602 info retry fetch attempt 1 at 12:50:06 PM
+603 info attempt registry request try #1 at 12:50:06 PM
+604 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+605 info retry fetch attempt 1 at 12:50:06 PM
+606 info attempt registry request try #1 at 12:50:06 PM
+607 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+608 info retry fetch attempt 1 at 12:50:06 PM
+609 info attempt registry request try #1 at 12:50:06 PM
+610 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+611 info retry fetch attempt 1 at 12:50:06 PM
+612 info attempt registry request try #1 at 12:50:06 PM
+613 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+614 info retry fetch attempt 1 at 12:50:06 PM
+615 info attempt registry request try #1 at 12:50:06 PM
+616 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+617 info retry fetch attempt 1 at 12:50:06 PM
+618 info attempt registry request try #1 at 12:50:06 PM
+619 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+620 info retry fetch attempt 1 at 12:50:06 PM
+621 info attempt registry request try #1 at 12:50:06 PM
+622 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+623 info retry fetch attempt 1 at 12:50:06 PM
+624 info attempt registry request try #1 at 12:50:06 PM
+625 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+626 info retry fetch attempt 1 at 12:50:06 PM
+627 info attempt registry request try #1 at 12:50:06 PM
+628 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+629 info retry fetch attempt 1 at 12:50:06 PM
+630 info attempt registry request try #1 at 12:50:06 PM
+631 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+632 info retry will retry, error on last attempt: Error: certificate not trusted
+633 info retry will retry, error on last attempt: Error: certificate not trusted
+634 info retry will retry, error on last attempt: Error: certificate not trusted
+635 info retry will retry, error on last attempt: Error: certificate not trusted
+636 info retry will retry, error on last attempt: Error: certificate not trusted
+637 info retry will retry, error on last attempt: Error: certificate not trusted
+638 info retry will retry, error on last attempt: Error: certificate not trusted
+639 info retry will retry, error on last attempt: Error: certificate not trusted
+640 info retry will retry, error on last attempt: Error: certificate not trusted
+641 info retry will retry, error on last attempt: Error: certificate not trusted
+642 info retry will retry, error on last attempt: Error: certificate not trusted
+643 info retry will retry, error on last attempt: Error: certificate not trusted
+644 info retry will retry, error on last attempt: Error: certificate not trusted
+645 info retry will retry, error on last attempt: Error: certificate not trusted
+646 info retry will retry, error on last attempt: Error: certificate not trusted
+647 info retry will retry, error on last attempt: Error: certificate not trusted
+648 info retry will retry, error on last attempt: Error: certificate not trusted
+649 info retry will retry, error on last attempt: Error: certificate not trusted
+650 info retry will retry, error on last attempt: Error: certificate not trusted
+651 info retry will retry, error on last attempt: Error: certificate not trusted
+652 info retry will retry, error on last attempt: Error: certificate not trusted
+653 info retry will retry, error on last attempt: Error: certificate not trusted
+654 info retry will retry, error on last attempt: Error: certificate not trusted
+655 info retry will retry, error on last attempt: Error: certificate not trusted
+656 info retry will retry, error on last attempt: Error: certificate not trusted
+657 info retry will retry, error on last attempt: Error: certificate not trusted
+658 info retry will retry, error on last attempt: Error: certificate not trusted
+659 info retry will retry, error on last attempt: Error: certificate not trusted
+660 info retry will retry, error on last attempt: Error: certificate not trusted
+661 info retry will retry, error on last attempt: Error: certificate not trusted
+662 info retry will retry, error on last attempt: Error: certificate not trusted
+663 info retry will retry, error on last attempt: Error: certificate not trusted
+664 info attempt registry request try #2 at 12:50:16 PM
+665 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+666 info attempt registry request try #2 at 12:50:16 PM
+667 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+668 info attempt registry request try #2 at 12:50:16 PM
+669 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+670 info attempt registry request try #2 at 12:50:16 PM
+671 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+672 info attempt registry request try #2 at 12:50:16 PM
+673 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+674 info attempt registry request try #2 at 12:50:16 PM
+675 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+676 info attempt registry request try #2 at 12:50:16 PM
+677 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+678 info attempt registry request try #2 at 12:50:16 PM
+679 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+680 info attempt registry request try #2 at 12:50:16 PM
+681 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+682 info attempt registry request try #2 at 12:50:16 PM
+683 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+684 info attempt registry request try #2 at 12:50:16 PM
+685 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+686 info attempt registry request try #2 at 12:50:16 PM
+687 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+688 info attempt registry request try #2 at 12:50:16 PM
+689 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+690 info attempt registry request try #2 at 12:50:16 PM
+691 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+692 info attempt registry request try #2 at 12:50:16 PM
+693 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+694 info attempt registry request try #2 at 12:50:16 PM
+695 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+696 info attempt registry request try #2 at 12:50:16 PM
+697 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+698 info attempt registry request try #2 at 12:50:16 PM
+699 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+700 info attempt registry request try #2 at 12:50:16 PM
+701 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+702 info attempt registry request try #2 at 12:50:16 PM
+703 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+704 info attempt registry request try #2 at 12:50:16 PM
+705 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+706 info attempt registry request try #2 at 12:50:16 PM
+707 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+708 info attempt registry request try #2 at 12:50:16 PM
+709 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+710 info attempt registry request try #2 at 12:50:16 PM
+711 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+712 info attempt registry request try #2 at 12:50:16 PM
+713 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+714 info attempt registry request try #2 at 12:50:16 PM
+715 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+716 info attempt registry request try #2 at 12:50:16 PM
+717 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+718 info attempt registry request try #2 at 12:50:16 PM
+719 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+720 info attempt registry request try #2 at 12:50:16 PM
+721 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+722 info attempt registry request try #2 at 12:50:16 PM
+723 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+724 info attempt registry request try #2 at 12:50:16 PM
+725 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+726 info attempt registry request try #2 at 12:50:16 PM
+727 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+728 info retry will retry, error on last attempt: Error: certificate not trusted
+729 info retry will retry, error on last attempt: Error: certificate not trusted
+730 info retry will retry, error on last attempt: Error: certificate not trusted
+731 info retry will retry, error on last attempt: Error: certificate not trusted
+732 info retry will retry, error on last attempt: Error: certificate not trusted
+733 info retry will retry, error on last attempt: Error: certificate not trusted
+734 info retry will retry, error on last attempt: Error: certificate not trusted
+735 info retry will retry, error on last attempt: Error: certificate not trusted
+736 info retry will retry, error on last attempt: Error: certificate not trusted
+737 info retry will retry, error on last attempt: Error: certificate not trusted
+738 info retry will retry, error on last attempt: Error: certificate not trusted
+739 info retry will retry, error on last attempt: Error: certificate not trusted
+740 info retry will retry, error on last attempt: Error: certificate not trusted
+741 info retry will retry, error on last attempt: Error: certificate not trusted
+742 info retry will retry, error on last attempt: Error: certificate not trusted
+743 info retry will retry, error on last attempt: Error: certificate not trusted
+744 info retry will retry, error on last attempt: Error: certificate not trusted
+745 info retry will retry, error on last attempt: Error: certificate not trusted
+746 info retry will retry, error on last attempt: Error: certificate not trusted
+747 info retry will retry, error on last attempt: Error: certificate not trusted
+748 info retry will retry, error on last attempt: Error: certificate not trusted
+749 info retry will retry, error on last attempt: Error: certificate not trusted
+750 info retry will retry, error on last attempt: Error: certificate not trusted
+751 info retry will retry, error on last attempt: Error: certificate not trusted
+752 info retry will retry, error on last attempt: Error: certificate not trusted
+753 info retry will retry, error on last attempt: Error: certificate not trusted
+754 info retry will retry, error on last attempt: Error: certificate not trusted
+755 info retry will retry, error on last attempt: Error: certificate not trusted
+756 info retry will retry, error on last attempt: Error: certificate not trusted
+757 info retry will retry, error on last attempt: Error: certificate not trusted
+758 info retry will retry, error on last attempt: Error: certificate not trusted
+759 info retry will retry, error on last attempt: Error: certificate not trusted
+760 info attempt registry request try #3 at 12:51:16 PM
+761 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+762 info attempt registry request try #3 at 12:51:16 PM
+763 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+764 info attempt registry request try #3 at 12:51:16 PM
+765 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+766 info attempt registry request try #3 at 12:51:16 PM
+767 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+768 info attempt registry request try #3 at 12:51:16 PM
+769 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+770 info attempt registry request try #3 at 12:51:16 PM
+771 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+772 info attempt registry request try #3 at 12:51:16 PM
+773 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+774 info attempt registry request try #3 at 12:51:16 PM
+775 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+776 info attempt registry request try #3 at 12:51:16 PM
+777 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+778 info attempt registry request try #3 at 12:51:16 PM
+779 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+780 info attempt registry request try #3 at 12:51:16 PM
+781 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+782 info attempt registry request try #3 at 12:51:16 PM
+783 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+784 info attempt registry request try #3 at 12:51:16 PM
+785 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+786 info attempt registry request try #3 at 12:51:16 PM
+787 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+788 info attempt registry request try #3 at 12:51:16 PM
+789 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+790 info attempt registry request try #3 at 12:51:16 PM
+791 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+792 info attempt registry request try #3 at 12:51:16 PM
+793 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+794 info attempt registry request try #3 at 12:51:16 PM
+795 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+796 info attempt registry request try #3 at 12:51:16 PM
+797 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+798 info attempt registry request try #3 at 12:51:16 PM
+799 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+800 info attempt registry request try #3 at 12:51:16 PM
+801 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+802 info attempt registry request try #3 at 12:51:16 PM
+803 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+804 info attempt registry request try #3 at 12:51:16 PM
+805 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+806 info attempt registry request try #3 at 12:51:16 PM
+807 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+808 info attempt registry request try #3 at 12:51:16 PM
+809 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+810 info attempt registry request try #3 at 12:51:16 PM
+811 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+812 info attempt registry request try #3 at 12:51:16 PM
+813 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+814 info attempt registry request try #3 at 12:51:16 PM
+815 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+816 info attempt registry request try #3 at 12:51:16 PM
+817 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+818 info attempt registry request try #3 at 12:51:16 PM
+819 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+820 info attempt registry request try #3 at 12:51:16 PM
+821 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+822 info attempt registry request try #3 at 12:51:16 PM
+823 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+824 error fetch failed https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+825 warn retry will retry, error on last attempt: Error: certificate not trusted
+826 error fetch failed https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+827 warn retry will retry, error on last attempt: Error: certificate not trusted
+828 error fetch failed https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+829 warn retry will retry, error on last attempt: Error: certificate not trusted
+830 error fetch failed https://registry.npmjs.org/async/-/async-0.9.0.tgz
+831 warn retry will retry, error on last attempt: Error: certificate not trusted
+832 error fetch failed https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+833 warn retry will retry, error on last attempt: Error: certificate not trusted
+834 error fetch failed https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+835 warn retry will retry, error on last attempt: Error: certificate not trusted
+836 error fetch failed https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+837 warn retry will retry, error on last attempt: Error: certificate not trusted
+838 error fetch failed https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+839 warn retry will retry, error on last attempt: Error: certificate not trusted
+840 error fetch failed https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+841 warn retry will retry, error on last attempt: Error: certificate not trusted
+842 error fetch failed https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+843 warn retry will retry, error on last attempt: Error: certificate not trusted
+844 error fetch failed https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+845 warn retry will retry, error on last attempt: Error: certificate not trusted
+846 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+847 warn retry will retry, error on last attempt: Error: certificate not trusted
+848 error fetch failed https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+849 warn retry will retry, error on last attempt: Error: certificate not trusted
+850 error fetch failed https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+851 warn retry will retry, error on last attempt: Error: certificate not trusted
+852 error fetch failed https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+853 warn retry will retry, error on last attempt: Error: certificate not trusted
+854 error fetch failed https://registry.npmjs.org/request/-/request-2.51.0.tgz
+855 warn retry will retry, error on last attempt: Error: certificate not trusted
+856 error fetch failed https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+857 warn retry will retry, error on last attempt: Error: certificate not trusted
+858 error fetch failed https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+859 warn retry will retry, error on last attempt: Error: certificate not trusted
+860 error fetch failed https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+861 warn retry will retry, error on last attempt: Error: certificate not trusted
+862 error fetch failed https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+863 warn retry will retry, error on last attempt: Error: certificate not trusted
+864 error fetch failed https://registry.npmjs.org/q/-/q-1.0.1.tgz
+865 warn retry will retry, error on last attempt: Error: certificate not trusted
+866 error fetch failed https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+867 warn retry will retry, error on last attempt: Error: certificate not trusted
+868 error fetch failed https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+869 warn retry will retry, error on last attempt: Error: certificate not trusted
+870 error fetch failed https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+871 warn retry will retry, error on last attempt: Error: certificate not trusted
+872 error fetch failed https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+873 warn retry will retry, error on last attempt: Error: certificate not trusted
+874 error fetch failed https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+875 warn retry will retry, error on last attempt: Error: certificate not trusted
+876 error fetch failed https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+877 warn retry will retry, error on last attempt: Error: certificate not trusted
+878 error fetch failed https://registry.npmjs.org/open/-/open-0.0.5.tgz
+879 warn retry will retry, error on last attempt: Error: certificate not trusted
+880 error fetch failed https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+881 warn retry will retry, error on last attempt: Error: certificate not trusted
+882 error fetch failed https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+883 warn retry will retry, error on last attempt: Error: certificate not trusted
+884 error fetch failed https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+885 warn retry will retry, error on last attempt: Error: certificate not trusted
+886 error fetch failed https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+887 warn retry will retry, error on last attempt: Error: certificate not trusted
+888 info retry fetch attempt 2 at 12:51:26 PM
+889 info attempt registry request try #1 at 12:51:26 PM
+890 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+891 info retry fetch attempt 2 at 12:51:26 PM
+892 info attempt registry request try #1 at 12:51:26 PM
+893 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+894 info retry fetch attempt 2 at 12:51:26 PM
+895 info attempt registry request try #1 at 12:51:26 PM
+896 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+897 info retry fetch attempt 2 at 12:51:26 PM
+898 info attempt registry request try #1 at 12:51:26 PM
+899 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+900 info retry fetch attempt 2 at 12:51:26 PM
+901 info attempt registry request try #1 at 12:51:26 PM
+902 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+903 info retry fetch attempt 2 at 12:51:26 PM
+904 info attempt registry request try #1 at 12:51:26 PM
+905 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+906 info retry fetch attempt 2 at 12:51:26 PM
+907 info attempt registry request try #1 at 12:51:26 PM
+908 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+909 info retry fetch attempt 2 at 12:51:26 PM
+910 info attempt registry request try #1 at 12:51:26 PM
+911 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+912 info retry fetch attempt 2 at 12:51:26 PM
+913 info attempt registry request try #1 at 12:51:26 PM
+914 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+915 info retry fetch attempt 2 at 12:51:26 PM
+916 info attempt registry request try #1 at 12:51:26 PM
+917 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+918 info retry fetch attempt 2 at 12:51:26 PM
+919 info attempt registry request try #1 at 12:51:26 PM
+920 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+921 info retry fetch attempt 2 at 12:51:26 PM
+922 info attempt registry request try #1 at 12:51:26 PM
+923 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+924 info retry fetch attempt 2 at 12:51:26 PM
+925 info attempt registry request try #1 at 12:51:26 PM
+926 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+927 info retry fetch attempt 2 at 12:51:26 PM
+928 info attempt registry request try #1 at 12:51:26 PM
+929 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+930 info retry fetch attempt 2 at 12:51:26 PM
+931 info attempt registry request try #1 at 12:51:26 PM
+932 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+933 info retry fetch attempt 2 at 12:51:26 PM
+934 info attempt registry request try #1 at 12:51:26 PM
+935 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+936 info retry fetch attempt 2 at 12:51:26 PM
+937 info attempt registry request try #1 at 12:51:26 PM
+938 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+939 info retry fetch attempt 2 at 12:51:26 PM
+940 info attempt registry request try #1 at 12:51:26 PM
+941 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+942 info retry fetch attempt 2 at 12:51:26 PM
+943 info attempt registry request try #1 at 12:51:26 PM
+944 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+945 info retry fetch attempt 2 at 12:51:26 PM
+946 info attempt registry request try #1 at 12:51:26 PM
+947 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+948 info retry fetch attempt 2 at 12:51:26 PM
+949 info attempt registry request try #1 at 12:51:26 PM
+950 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+951 info retry fetch attempt 2 at 12:51:26 PM
+952 info attempt registry request try #1 at 12:51:26 PM
+953 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+954 info retry fetch attempt 2 at 12:51:26 PM
+955 info attempt registry request try #1 at 12:51:26 PM
+956 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+957 info retry fetch attempt 2 at 12:51:26 PM
+958 info attempt registry request try #1 at 12:51:26 PM
+959 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+960 info retry fetch attempt 2 at 12:51:26 PM
+961 info attempt registry request try #1 at 12:51:26 PM
+962 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+963 info retry fetch attempt 2 at 12:51:26 PM
+964 info attempt registry request try #1 at 12:51:26 PM
+965 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+966 info retry fetch attempt 2 at 12:51:26 PM
+967 info attempt registry request try #1 at 12:51:26 PM
+968 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+969 info retry fetch attempt 2 at 12:51:26 PM
+970 info attempt registry request try #1 at 12:51:26 PM
+971 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+972 info retry fetch attempt 2 at 12:51:26 PM
+973 info attempt registry request try #1 at 12:51:26 PM
+974 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+975 info retry fetch attempt 2 at 12:51:26 PM
+976 info attempt registry request try #1 at 12:51:26 PM
+977 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+978 info retry fetch attempt 2 at 12:51:26 PM
+979 info attempt registry request try #1 at 12:51:26 PM
+980 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+981 info retry fetch attempt 2 at 12:51:26 PM
+982 info attempt registry request try #1 at 12:51:26 PM
+983 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+984 info retry will retry, error on last attempt: Error: certificate not trusted
+985 info retry will retry, error on last attempt: Error: certificate not trusted
+986 info retry will retry, error on last attempt: Error: certificate not trusted
+987 info retry will retry, error on last attempt: Error: certificate not trusted
+988 info retry will retry, error on last attempt: Error: certificate not trusted
+989 info retry will retry, error on last attempt: Error: certificate not trusted
+990 info retry will retry, error on last attempt: Error: certificate not trusted
+991 info retry will retry, error on last attempt: Error: certificate not trusted
+992 info retry will retry, error on last attempt: Error: certificate not trusted
+993 info retry will retry, error on last attempt: Error: certificate not trusted
+994 info retry will retry, error on last attempt: Error: certificate not trusted
+995 info retry will retry, error on last attempt: Error: certificate not trusted
+996 info retry will retry, error on last attempt: Error: certificate not trusted
+997 info retry will retry, error on last attempt: Error: certificate not trusted
+998 info retry will retry, error on last attempt: Error: certificate not trusted
+999 info retry will retry, error on last attempt: Error: certificate not trusted
+1000 info retry will retry, error on last attempt: Error: certificate not trusted
+1001 info retry will retry, error on last attempt: Error: certificate not trusted
+1002 info retry will retry, error on last attempt: Error: certificate not trusted
+1003 info retry will retry, error on last attempt: Error: certificate not trusted
+1004 info retry will retry, error on last attempt: Error: certificate not trusted
+1005 info retry will retry, error on last attempt: Error: certificate not trusted
+1006 info retry will retry, error on last attempt: Error: certificate not trusted
+1007 info retry will retry, error on last attempt: Error: certificate not trusted
+1008 info retry will retry, error on last attempt: Error: certificate not trusted
+1009 info retry will retry, error on last attempt: Error: certificate not trusted
+1010 info retry will retry, error on last attempt: Error: certificate not trusted
+1011 info retry will retry, error on last attempt: Error: certificate not trusted
+1012 info retry will retry, error on last attempt: Error: certificate not trusted
+1013 info retry will retry, error on last attempt: Error: certificate not trusted
+1014 info retry will retry, error on last attempt: Error: certificate not trusted
+1015 info retry will retry, error on last attempt: Error: certificate not trusted
+1016 info attempt registry request try #2 at 12:51:37 PM
+1017 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+1018 info attempt registry request try #2 at 12:51:37 PM
+1019 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+1020 info attempt registry request try #2 at 12:51:37 PM
+1021 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+1022 info attempt registry request try #2 at 12:51:37 PM
+1023 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+1024 info attempt registry request try #2 at 12:51:37 PM
+1025 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+1026 info attempt registry request try #2 at 12:51:37 PM
+1027 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+1028 info attempt registry request try #2 at 12:51:37 PM
+1029 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+1030 info attempt registry request try #2 at 12:51:37 PM
+1031 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+1032 info attempt registry request try #2 at 12:51:37 PM
+1033 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+1034 info attempt registry request try #2 at 12:51:37 PM
+1035 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+1036 info attempt registry request try #2 at 12:51:37 PM
+1037 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+1038 info attempt registry request try #2 at 12:51:37 PM
+1039 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+1040 info attempt registry request try #2 at 12:51:37 PM
+1041 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+1042 info attempt registry request try #2 at 12:51:37 PM
+1043 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+1044 info attempt registry request try #2 at 12:51:37 PM
+1045 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+1046 info attempt registry request try #2 at 12:51:37 PM
+1047 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+1048 info attempt registry request try #2 at 12:51:37 PM
+1049 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1050 info attempt registry request try #2 at 12:51:37 PM
+1051 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+1052 info attempt registry request try #2 at 12:51:37 PM
+1053 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+1054 info attempt registry request try #2 at 12:51:37 PM
+1055 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+1056 info attempt registry request try #2 at 12:51:37 PM
+1057 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+1058 info attempt registry request try #2 at 12:51:37 PM
+1059 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+1060 info attempt registry request try #2 at 12:51:37 PM
+1061 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+1062 info attempt registry request try #2 at 12:51:37 PM
+1063 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+1064 info attempt registry request try #2 at 12:51:37 PM
+1065 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+1066 info attempt registry request try #2 at 12:51:37 PM
+1067 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+1068 info attempt registry request try #2 at 12:51:37 PM
+1069 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+1070 info attempt registry request try #2 at 12:51:37 PM
+1071 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+1072 info attempt registry request try #2 at 12:51:37 PM
+1073 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+1074 info attempt registry request try #2 at 12:51:37 PM
+1075 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+1076 info attempt registry request try #2 at 12:51:37 PM
+1077 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+1078 info attempt registry request try #2 at 12:51:37 PM
+1079 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+1080 info retry will retry, error on last attempt: Error: certificate not trusted
+1081 info retry will retry, error on last attempt: Error: certificate not trusted
+1082 info retry will retry, error on last attempt: Error: certificate not trusted
+1083 info retry will retry, error on last attempt: Error: certificate not trusted
+1084 info retry will retry, error on last attempt: Error: certificate not trusted
+1085 info retry will retry, error on last attempt: Error: certificate not trusted
+1086 info retry will retry, error on last attempt: Error: certificate not trusted
+1087 info retry will retry, error on last attempt: Error: certificate not trusted
+1088 info retry will retry, error on last attempt: Error: certificate not trusted
+1089 info retry will retry, error on last attempt: Error: certificate not trusted
+1090 info retry will retry, error on last attempt: Error: certificate not trusted
+1091 info retry will retry, error on last attempt: Error: certificate not trusted
+1092 info retry will retry, error on last attempt: Error: certificate not trusted
+1093 info retry will retry, error on last attempt: Error: certificate not trusted
+1094 info retry will retry, error on last attempt: Error: certificate not trusted
+1095 info retry will retry, error on last attempt: Error: certificate not trusted
+1096 info retry will retry, error on last attempt: Error: certificate not trusted
+1097 info retry will retry, error on last attempt: Error: certificate not trusted
+1098 info retry will retry, error on last attempt: Error: certificate not trusted
+1099 info retry will retry, error on last attempt: Error: certificate not trusted
+1100 info retry will retry, error on last attempt: Error: certificate not trusted
+1101 info retry will retry, error on last attempt: Error: certificate not trusted
+1102 info retry will retry, error on last attempt: Error: certificate not trusted
+1103 info retry will retry, error on last attempt: Error: certificate not trusted
+1104 info retry will retry, error on last attempt: Error: certificate not trusted
+1105 info retry will retry, error on last attempt: Error: certificate not trusted
+1106 info retry will retry, error on last attempt: Error: certificate not trusted
+1107 info retry will retry, error on last attempt: Error: certificate not trusted
+1108 info retry will retry, error on last attempt: Error: certificate not trusted
+1109 info retry will retry, error on last attempt: Error: certificate not trusted
+1110 info retry will retry, error on last attempt: Error: certificate not trusted
+1111 info retry will retry, error on last attempt: Error: certificate not trusted
+1112 info attempt registry request try #3 at 1:01:13 PM
+1113 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+1114 info attempt registry request try #3 at 1:01:13 PM
+1115 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+1116 info attempt registry request try #3 at 1:01:13 PM
+1117 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+1118 info attempt registry request try #3 at 1:01:13 PM
+1119 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+1120 info attempt registry request try #3 at 1:01:13 PM
+1121 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+1122 info attempt registry request try #3 at 1:01:13 PM
+1123 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+1124 info attempt registry request try #3 at 1:01:13 PM
+1125 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+1126 info attempt registry request try #3 at 1:01:13 PM
+1127 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+1128 info attempt registry request try #3 at 1:01:13 PM
+1129 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+1130 info attempt registry request try #3 at 1:01:13 PM
+1131 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+1132 info attempt registry request try #3 at 1:01:13 PM
+1133 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+1134 info attempt registry request try #3 at 1:01:13 PM
+1135 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+1136 info attempt registry request try #3 at 1:01:13 PM
+1137 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+1138 info attempt registry request try #3 at 1:01:13 PM
+1139 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+1140 info attempt registry request try #3 at 1:01:13 PM
+1141 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1142 info attempt registry request try #3 at 1:01:13 PM
+1143 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+1144 info attempt registry request try #3 at 1:01:13 PM
+1145 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+1146 info attempt registry request try #3 at 1:01:13 PM
+1147 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+1148 info attempt registry request try #3 at 1:01:13 PM
+1149 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+1150 info attempt registry request try #3 at 1:01:13 PM
+1151 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+1152 info attempt registry request try #3 at 1:01:13 PM
+1153 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+1154 info attempt registry request try #3 at 1:01:13 PM
+1155 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+1156 info attempt registry request try #3 at 1:01:13 PM
+1157 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+1158 info attempt registry request try #3 at 1:01:13 PM
+1159 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+1160 info attempt registry request try #3 at 1:01:13 PM
+1161 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+1162 info attempt registry request try #3 at 1:01:13 PM
+1163 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+1164 info attempt registry request try #3 at 1:01:13 PM
+1165 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+1166 info attempt registry request try #3 at 1:01:13 PM
+1167 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+1168 info attempt registry request try #3 at 1:01:13 PM
+1169 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+1170 info attempt registry request try #3 at 1:01:13 PM
+1171 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+1172 info attempt registry request try #3 at 1:01:13 PM
+1173 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+1174 info attempt registry request try #3 at 1:01:13 PM
+1175 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+1176 error fetch failed https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+1177 warn retry will retry, error on last attempt: Error: certificate not trusted
+1178 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+1179 warn retry will retry, error on last attempt: Error: certificate not trusted
+1180 error fetch failed https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+1181 warn retry will retry, error on last attempt: Error: certificate not trusted
+1182 error fetch failed https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+1183 warn retry will retry, error on last attempt: Error: certificate not trusted
+1184 error fetch failed https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+1185 warn retry will retry, error on last attempt: Error: certificate not trusted
+1186 error fetch failed https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+1187 warn retry will retry, error on last attempt: Error: certificate not trusted
+1188 error fetch failed https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+1189 warn retry will retry, error on last attempt: Error: certificate not trusted
+1190 error fetch failed https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+1191 warn retry will retry, error on last attempt: Error: certificate not trusted
+1192 error fetch failed https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+1193 warn retry will retry, error on last attempt: Error: certificate not trusted
+1194 error fetch failed https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+1195 warn retry will retry, error on last attempt: Error: certificate not trusted
+1196 error fetch failed https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+1197 warn retry will retry, error on last attempt: Error: certificate not trusted
+1198 error fetch failed https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+1199 warn retry will retry, error on last attempt: Error: certificate not trusted
+1200 error fetch failed https://registry.npmjs.org/open/-/open-0.0.5.tgz
+1201 warn retry will retry, error on last attempt: Error: certificate not trusted
+1202 error fetch failed https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+1203 warn retry will retry, error on last attempt: Error: certificate not trusted
+1204 error fetch failed https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+1205 warn retry will retry, error on last attempt: Error: certificate not trusted
+1206 error fetch failed https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+1207 warn retry will retry, error on last attempt: Error: certificate not trusted
+1208 error fetch failed https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+1209 warn retry will retry, error on last attempt: Error: certificate not trusted
+1210 error fetch failed https://registry.npmjs.org/async/-/async-0.9.0.tgz
+1211 warn retry will retry, error on last attempt: Error: certificate not trusted
+1212 error fetch failed https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1213 warn retry will retry, error on last attempt: Error: certificate not trusted
+1214 error fetch failed https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+1215 warn retry will retry, error on last attempt: Error: certificate not trusted
+1216 error fetch failed https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+1217 warn retry will retry, error on last attempt: Error: certificate not trusted
+1218 error fetch failed https://registry.npmjs.org/q/-/q-1.0.1.tgz
+1219 warn retry will retry, error on last attempt: Error: certificate not trusted
+1220 error fetch failed https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+1221 warn retry will retry, error on last attempt: Error: certificate not trusted
+1222 error fetch failed https://registry.npmjs.org/request/-/request-2.51.0.tgz
+1223 warn retry will retry, error on last attempt: Error: certificate not trusted
+1224 error fetch failed https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+1225 warn retry will retry, error on last attempt: Error: certificate not trusted
+1226 error fetch failed https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+1227 warn retry will retry, error on last attempt: Error: certificate not trusted
+1228 error fetch failed https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+1229 warn retry will retry, error on last attempt: Error: certificate not trusted
+1230 error fetch failed https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+1231 warn retry will retry, error on last attempt: Error: certificate not trusted
+1232 error fetch failed https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+1233 warn retry will retry, error on last attempt: Error: certificate not trusted
+1234 error fetch failed https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+1235 warn retry will retry, error on last attempt: Error: certificate not trusted
+1236 error fetch failed https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+1237 warn retry will retry, error on last attempt: Error: certificate not trusted
+1238 error fetch failed https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+1239 warn retry will retry, error on last attempt: Error: certificate not trusted
+1240 info retry fetch attempt 3 at 1:02:14 PM
+1241 info attempt registry request try #1 at 1:02:14 PM
+1242 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+1243 info retry fetch attempt 3 at 1:02:14 PM
+1244 info attempt registry request try #1 at 1:02:14 PM
+1245 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+1246 info retry fetch attempt 3 at 1:02:14 PM
+1247 info attempt registry request try #1 at 1:02:14 PM
+1248 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+1249 info retry fetch attempt 3 at 1:02:14 PM
+1250 info attempt registry request try #1 at 1:02:14 PM
+1251 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+1252 info retry fetch attempt 3 at 1:02:14 PM
+1253 info attempt registry request try #1 at 1:02:14 PM
+1254 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+1255 info retry fetch attempt 3 at 1:02:14 PM
+1256 info attempt registry request try #1 at 1:02:14 PM
+1257 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+1258 info retry fetch attempt 3 at 1:02:14 PM
+1259 info attempt registry request try #1 at 1:02:14 PM
+1260 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+1261 info retry fetch attempt 3 at 1:02:14 PM
+1262 info attempt registry request try #1 at 1:02:14 PM
+1263 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+1264 info retry fetch attempt 3 at 1:02:14 PM
+1265 info attempt registry request try #1 at 1:02:14 PM
+1266 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+1267 info retry fetch attempt 3 at 1:02:14 PM
+1268 info attempt registry request try #1 at 1:02:14 PM
+1269 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+1270 info retry fetch attempt 3 at 1:02:14 PM
+1271 info attempt registry request try #1 at 1:02:14 PM
+1272 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+1273 info retry fetch attempt 3 at 1:02:14 PM
+1274 info attempt registry request try #1 at 1:02:14 PM
+1275 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+1276 info retry fetch attempt 3 at 1:02:14 PM
+1277 info attempt registry request try #1 at 1:02:14 PM
+1278 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+1279 info retry fetch attempt 3 at 1:02:14 PM
+1280 info attempt registry request try #1 at 1:02:14 PM
+1281 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+1282 info retry fetch attempt 3 at 1:02:14 PM
+1283 info attempt registry request try #1 at 1:02:14 PM
+1284 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+1285 info retry fetch attempt 3 at 1:02:14 PM
+1286 info attempt registry request try #1 at 1:02:14 PM
+1287 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+1288 info retry fetch attempt 3 at 1:02:14 PM
+1289 info attempt registry request try #1 at 1:02:14 PM
+1290 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+1291 info retry fetch attempt 3 at 1:02:14 PM
+1292 info attempt registry request try #1 at 1:02:14 PM
+1293 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+1294 info retry fetch attempt 3 at 1:02:14 PM
+1295 info attempt registry request try #1 at 1:02:14 PM
+1296 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1297 info retry fetch attempt 3 at 1:02:14 PM
+1298 info attempt registry request try #1 at 1:02:14 PM
+1299 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+1300 info retry fetch attempt 3 at 1:02:14 PM
+1301 info attempt registry request try #1 at 1:02:14 PM
+1302 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+1303 info retry fetch attempt 3 at 1:02:14 PM
+1304 info attempt registry request try #1 at 1:02:14 PM
+1305 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+1306 info retry fetch attempt 3 at 1:02:14 PM
+1307 info attempt registry request try #1 at 1:02:14 PM
+1308 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+1309 info retry fetch attempt 3 at 1:02:14 PM
+1310 info attempt registry request try #1 at 1:02:14 PM
+1311 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+1312 info retry fetch attempt 3 at 1:02:14 PM
+1313 info attempt registry request try #1 at 1:02:14 PM
+1314 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+1315 info retry fetch attempt 3 at 1:02:14 PM
+1316 info attempt registry request try #1 at 1:02:14 PM
+1317 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+1318 info retry fetch attempt 3 at 1:02:14 PM
+1319 info attempt registry request try #1 at 1:02:14 PM
+1320 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+1321 info retry fetch attempt 3 at 1:02:14 PM
+1322 info attempt registry request try #1 at 1:02:14 PM
+1323 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+1324 info retry fetch attempt 3 at 1:02:14 PM
+1325 info attempt registry request try #1 at 1:02:14 PM
+1326 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+1327 info retry fetch attempt 3 at 1:02:14 PM
+1328 info attempt registry request try #1 at 1:02:14 PM
+1329 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+1330 info retry fetch attempt 3 at 1:02:14 PM
+1331 info attempt registry request try #1 at 1:02:14 PM
+1332 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+1333 info retry fetch attempt 3 at 1:02:14 PM
+1334 info attempt registry request try #1 at 1:02:14 PM
+1335 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+1336 info retry will retry, error on last attempt: Error: certificate not trusted
+1337 info retry will retry, error on last attempt: Error: certificate not trusted
+1338 info retry will retry, error on last attempt: Error: certificate not trusted
+1339 info retry will retry, error on last attempt: Error: certificate not trusted
+1340 info retry will retry, error on last attempt: Error: certificate not trusted
+1341 info retry will retry, error on last attempt: Error: certificate not trusted
+1342 info retry will retry, error on last attempt: Error: certificate not trusted
+1343 info retry will retry, error on last attempt: Error: certificate not trusted
+1344 info retry will retry, error on last attempt: Error: certificate not trusted
+1345 info retry will retry, error on last attempt: Error: certificate not trusted
+1346 info retry will retry, error on last attempt: Error: certificate not trusted
+1347 info retry will retry, error on last attempt: Error: certificate not trusted
+1348 info retry will retry, error on last attempt: Error: certificate not trusted
+1349 info retry will retry, error on last attempt: Error: certificate not trusted
+1350 info retry will retry, error on last attempt: Error: certificate not trusted
+1351 info retry will retry, error on last attempt: Error: certificate not trusted
+1352 info retry will retry, error on last attempt: Error: certificate not trusted
+1353 info retry will retry, error on last attempt: Error: certificate not trusted
+1354 info retry will retry, error on last attempt: Error: certificate not trusted
+1355 info retry will retry, error on last attempt: Error: certificate not trusted
+1356 info retry will retry, error on last attempt: Error: certificate not trusted
+1357 info retry will retry, error on last attempt: Error: certificate not trusted
+1358 info retry will retry, error on last attempt: Error: certificate not trusted
+1359 info retry will retry, error on last attempt: Error: certificate not trusted
+1360 info retry will retry, error on last attempt: Error: certificate not trusted
+1361 info retry will retry, error on last attempt: Error: certificate not trusted
+1362 info retry will retry, error on last attempt: Error: certificate not trusted
+1363 info retry will retry, error on last attempt: Error: certificate not trusted
+1364 info retry will retry, error on last attempt: Error: certificate not trusted
+1365 info retry will retry, error on last attempt: Error: certificate not trusted
+1366 info retry will retry, error on last attempt: Error: certificate not trusted
+1367 info retry will retry, error on last attempt: Error: certificate not trusted
+1368 info attempt registry request try #2 at 1:02:24 PM
+1369 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+1370 info attempt registry request try #2 at 1:02:24 PM
+1371 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+1372 info attempt registry request try #2 at 1:02:24 PM
+1373 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+1374 info attempt registry request try #2 at 1:02:24 PM
+1375 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+1376 info attempt registry request try #2 at 1:02:24 PM
+1377 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+1378 info attempt registry request try #2 at 1:02:24 PM
+1379 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+1380 info attempt registry request try #2 at 1:02:24 PM
+1381 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+1382 info attempt registry request try #2 at 1:02:24 PM
+1383 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+1384 info attempt registry request try #2 at 1:02:24 PM
+1385 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+1386 info attempt registry request try #2 at 1:02:24 PM
+1387 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+1388 info attempt registry request try #2 at 1:02:24 PM
+1389 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+1390 info attempt registry request try #2 at 1:02:24 PM
+1391 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+1392 info attempt registry request try #2 at 1:02:24 PM
+1393 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+1394 info attempt registry request try #2 at 1:02:24 PM
+1395 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+1396 info attempt registry request try #2 at 1:02:24 PM
+1397 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+1398 info attempt registry request try #2 at 1:02:24 PM
+1399 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+1400 info attempt registry request try #2 at 1:02:24 PM
+1401 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+1402 info attempt registry request try #2 at 1:02:24 PM
+1403 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+1404 info attempt registry request try #2 at 1:02:24 PM
+1405 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+1406 info attempt registry request try #2 at 1:02:24 PM
+1407 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1408 info attempt registry request try #2 at 1:02:24 PM
+1409 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+1410 info attempt registry request try #2 at 1:02:24 PM
+1411 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+1412 info attempt registry request try #2 at 1:02:24 PM
+1413 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+1414 info attempt registry request try #2 at 1:02:24 PM
+1415 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+1416 info attempt registry request try #2 at 1:02:24 PM
+1417 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+1418 info attempt registry request try #2 at 1:02:24 PM
+1419 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+1420 info attempt registry request try #2 at 1:02:24 PM
+1421 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+1422 info attempt registry request try #2 at 1:02:24 PM
+1423 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+1424 info attempt registry request try #2 at 1:02:24 PM
+1425 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+1426 info attempt registry request try #2 at 1:02:24 PM
+1427 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+1428 info attempt registry request try #2 at 1:02:24 PM
+1429 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+1430 info attempt registry request try #2 at 1:02:24 PM
+1431 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+1432 info retry will retry, error on last attempt: Error: certificate not trusted
+1433 info retry will retry, error on last attempt: Error: certificate not trusted
+1434 info retry will retry, error on last attempt: Error: certificate not trusted
+1435 info retry will retry, error on last attempt: Error: certificate not trusted
+1436 info retry will retry, error on last attempt: Error: certificate not trusted
+1437 info retry will retry, error on last attempt: Error: certificate not trusted
+1438 info retry will retry, error on last attempt: Error: certificate not trusted
+1439 info retry will retry, error on last attempt: Error: certificate not trusted
+1440 info retry will retry, error on last attempt: Error: certificate not trusted
+1441 info retry will retry, error on last attempt: Error: certificate not trusted
+1442 info retry will retry, error on last attempt: Error: certificate not trusted
+1443 info retry will retry, error on last attempt: Error: certificate not trusted
+1444 info retry will retry, error on last attempt: Error: certificate not trusted
+1445 info retry will retry, error on last attempt: Error: certificate not trusted
+1446 info retry will retry, error on last attempt: Error: certificate not trusted
+1447 info retry will retry, error on last attempt: Error: certificate not trusted
+1448 info retry will retry, error on last attempt: Error: certificate not trusted
+1449 info retry will retry, error on last attempt: Error: certificate not trusted
+1450 info retry will retry, error on last attempt: Error: certificate not trusted
+1451 info retry will retry, error on last attempt: Error: certificate not trusted
+1452 info retry will retry, error on last attempt: Error: certificate not trusted
+1453 info retry will retry, error on last attempt: Error: certificate not trusted
+1454 info retry will retry, error on last attempt: Error: certificate not trusted
+1455 info retry will retry, error on last attempt: Error: certificate not trusted
+1456 info retry will retry, error on last attempt: Error: certificate not trusted
+1457 info retry will retry, error on last attempt: Error: certificate not trusted
+1458 info retry will retry, error on last attempt: Error: certificate not trusted
+1459 info retry will retry, error on last attempt: Error: certificate not trusted
+1460 info retry will retry, error on last attempt: Error: certificate not trusted
+1461 info retry will retry, error on last attempt: Error: certificate not trusted
+1462 info retry will retry, error on last attempt: Error: certificate not trusted
+1463 info retry will retry, error on last attempt: Error: certificate not trusted
+1464 info attempt registry request try #3 at 1:03:24 PM
+1465 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+1466 info attempt registry request try #3 at 1:03:24 PM
+1467 http fetch GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+1468 info attempt registry request try #3 at 1:03:24 PM
+1469 http fetch GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+1470 info attempt registry request try #3 at 1:03:24 PM
+1471 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+1472 info attempt registry request try #3 at 1:03:24 PM
+1473 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+1474 info attempt registry request try #3 at 1:03:24 PM
+1475 http fetch GET https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+1476 info attempt registry request try #3 at 1:03:24 PM
+1477 http fetch GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+1478 info attempt registry request try #3 at 1:03:24 PM
+1479 http fetch GET https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+1480 info attempt registry request try #3 at 1:03:24 PM
+1481 http fetch GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+1482 info attempt registry request try #3 at 1:03:24 PM
+1483 http fetch GET https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+1484 info attempt registry request try #3 at 1:03:24 PM
+1485 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+1486 info attempt registry request try #3 at 1:03:24 PM
+1487 http fetch GET https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+1488 info attempt registry request try #3 at 1:03:24 PM
+1489 http fetch GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+1490 info attempt registry request try #3 at 1:03:24 PM
+1491 http fetch GET https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+1492 info attempt registry request try #3 at 1:03:24 PM
+1493 http fetch GET https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+1494 info attempt registry request try #3 at 1:03:24 PM
+1495 http fetch GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+1496 info attempt registry request try #3 at 1:03:24 PM
+1497 http fetch GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1498 info attempt registry request try #3 at 1:03:24 PM
+1499 http fetch GET https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+1500 info attempt registry request try #3 at 1:03:24 PM
+1501 http fetch GET https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+1502 info attempt registry request try #3 at 1:03:24 PM
+1503 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+1504 info attempt registry request try #3 at 1:03:24 PM
+1505 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+1506 info attempt registry request try #3 at 1:03:24 PM
+1507 http fetch GET https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+1508 info attempt registry request try #3 at 1:03:24 PM
+1509 http fetch GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+1510 info attempt registry request try #3 at 1:03:24 PM
+1511 http fetch GET https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+1512 info attempt registry request try #3 at 1:03:24 PM
+1513 http fetch GET https://registry.npmjs.org/q/-/q-1.0.1.tgz
+1514 info attempt registry request try #3 at 1:03:24 PM
+1515 http fetch GET https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+1516 info attempt registry request try #3 at 1:03:24 PM
+1517 http fetch GET https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+1518 info attempt registry request try #3 at 1:03:24 PM
+1519 http fetch GET https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+1520 info attempt registry request try #3 at 1:03:24 PM
+1521 http fetch GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+1522 info attempt registry request try #3 at 1:03:24 PM
+1523 http fetch GET https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+1524 info attempt registry request try #3 at 1:03:24 PM
+1525 http fetch GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+1526 info attempt registry request try #3 at 1:03:24 PM
+1527 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+1528 error fetch failed https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+1529 error fetch failed https://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz
+1530 error fetch failed https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+1531 error fetch failed https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz
+1532 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+1533 error fetch failed https://registry.npmjs.org/proxy-middleware/-/proxy-middleware-0.7.0.tgz
+1534 error fetch failed https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+1535 error fetch failed https://registry.npmjs.org/progress/-/progress-1.1.7.tgz
+1536 error fetch failed https://registry.npmjs.org/connect/-/connect-3.1.1.tgz
+1537 error fetch failed https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+1538 error fetch failed https://registry.npmjs.org/event-stream/-/event-stream-3.0.20.tgz
+1539 error fetch failed https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1540 error fetch failed https://registry.npmjs.org/ionic-app-lib/-/ionic-app-lib-0.0.22.tgz
+1541 error fetch failed https://registry.npmjs.org/crc/-/crc-3.2.1.tgz
+1542 error fetch failed https://registry.npmjs.org/gulp/-/gulp-3.8.8.tgz
+1543 error fetch failed https://registry.npmjs.org/archiver/-/archiver-0.5.1.tgz
+1544 error fetch failed https://registry.npmjs.org/async/-/async-0.9.0.tgz
+1545 error fetch failed https://registry.npmjs.org/serve-static/-/serve-static-1.7.1.tgz
+1546 error fetch failed https://registry.npmjs.org/cheerio/-/cheerio-0.19.0.tgz
+1547 error fetch failed https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz
+1548 error fetch failed https://registry.npmjs.org/open/-/open-0.0.5.tgz
+1549 error fetch failed https://registry.npmjs.org/npm/-/npm-2.1.3.tgz
+1550 error fetch failed https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+1551 error fetch failed https://registry.npmjs.org/semver/-/semver-4.3.4.tgz
+1552 error fetch failed https://registry.npmjs.org/q/-/q-1.0.1.tgz
+1553 error fetch failed https://registry.npmjs.org/request/-/request-2.51.0.tgz
+1554 error fetch failed https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz
+1555 error fetch failed https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.5.2.tgz
+1556 error fetch failed https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz
+1557 error fetch failed https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-0.3.7.tgz
+1558 error fetch failed https://registry.npmjs.org/xml2js/-/xml2js-0.4.4.tgz
+1559 error fetch failed https://registry.npmjs.org/cross-spawn/-/cross-spawn-0.2.3.tgz
+1560 verbose about to build C:\Users\j1009063\npm\node_modules\ionic
+1561 verbose unlock done using C:\Users\j1009063\AppData\Roaming\npm-cache\_locks\ionic-2d54589b03036745.lock for C:\Users\j1009063\npm\node_modules\ionic
+1562 verbose stack Error: certificate not trusted
+1562 verbose stack     at Error (native)
+1562 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:929:36)
+1562 verbose stack     at TLSSocket.emit (events.js:104:17)
+1562 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:460:8)
+1563 verbose cwd D:\Chandra\Coding\ionicandweb
+1564 error Windows_NT 6.3.9600
+1565 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "ionic"
+1566 error node v0.12.2
+1567 error npm  v2.7.4
+1568 error code CERT_UNTRUSTED
+1569 error certificate not trusted
+1570 error If you need help, you may report this error at:
+1570 error     <https://github.com/npm/npm/issues>
+1571 verbose exit [ 1, true ]
+1572 verbose unbuild node_modules\ionic
+1573 info preuninstall ionic@1.4.5
+1574 info uninstall ionic@1.4.5
+1575 verbose unbuild rmStuff ionic@1.4.5 from C:\Users\j1009063\npm\node_modules
+1576 silly gentlyRm C:\Users\j1009063\npm\ionic.cmd is being gently removed
+1577 silly gentlyRm verifying C:\Users\j1009063\npm is an npm working directory
+1578 silly gentlyRm containing path C:\Users\j1009063\npm is under npm's control, in C:\Users\j1009063\npm
+1579 silly gentlyRm deletion target C:\Users\j1009063\npm\ionic.cmd is under C:\Users\j1009063\npm
+1580 verbose gentlyRm vacuuming from C:\Users\j1009063\npm\ionic.cmd up to C:\Users\j1009063\npm
+1581 silly gentlyRm C:\Users\j1009063\npm\ionic is being gently removed
+1582 silly gentlyRm verifying C:\Users\j1009063\npm is an npm working directory
+1583 silly gentlyRm containing path C:\Users\j1009063\npm is under npm's control, in C:\Users\j1009063\npm
+1584 silly gentlyRm deletion target C:\Users\j1009063\npm\ionic is under C:\Users\j1009063\npm
+1585 verbose gentlyRm vacuuming from C:\Users\j1009063\npm\ionic up to C:\Users\j1009063\npm
+1586 info postuninstall ionic@1.4.5
+1587 silly gentlyRm C:\Users\j1009063\npm\node_modules\ionic is being purged from base C:\Users\j1009063\npm
+1588 verbose gentlyRm don't care about contents; nuking C:\Users\j1009063\npm\node_modules\ionic
+1589 silly vacuum-fs purging C:\Users\j1009063\npm\node_modules\ionic
+1590 silly vacuum-fs quitting because other entries in C:\Users\j1009063\npm\node_modules
